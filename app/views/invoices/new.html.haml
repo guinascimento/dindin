@@ -1,0 +1,35 @@
+#content
+  #profile_container
+    #left
+      %a{:href => invoices_path}
+        Back
+      %br
+      %br
+      #profile_info
+        -form_for(@invoice) do |f|
+          #signup_box
+            %fieldset
+              .group
+                %div{:class => "field separated"}
+                  %label{:for => "invoice_name"}
+                    Name
+                  =f.text_field :name
+                %div{:class => "field separated"}
+                  %label{:for => "invoice_value"}
+                    Value
+                  =f.text_field :value
+                %div{:class => "field separated"}
+                  %label{:for => "invoice_date"}
+                    Date
+                  =f.text_field :date
+                %div{:class => "field separated"}
+                  %label{:for => "invoice_tags"}
+                    Tags
+                  - f.fields_for :tags do |tag_form|
+                    =tag_form.text_field :id
+                %div{:class => "field separated"}
+                  %label{:for => "invoice_payed"}
+                    Paid ?
+                  =f.check_box :payed
+                %div{:class => "field separated"}
+                  = f.submit 'Create'

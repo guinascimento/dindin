@@ -1,0 +1,25 @@
+#content
+	#profile_header
+		%h1
+			Keep track of your money!
+	#profile_container
+		#left
+			%a{:href => invoices_path}
+				Back
+			%br
+			%br
+			#profile_info
+				-form_for(@user) do |f|
+					#signup_box
+						%fieldset
+							.group
+								%div{:class => "field separated"}
+									%label{:for => "name"}
+										Name
+									=f.text_field :name
+								%div{:class => "field separated"}
+									%label{:for => "salary"}
+										Salary
+									=f.text_field :salary
+								%div{:class => "field separated"}
+									= f.submit 'Create'

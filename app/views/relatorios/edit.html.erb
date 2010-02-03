@@ -1,0 +1,12 @@
+<h1>Editing relatorio</h1>
+
+<% form_for(@relatorio) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @relatorio %> |
+<%= link_to 'Back', relatorios_path %>

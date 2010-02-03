@@ -1,0 +1,20 @@
+defaults: &defaults
+  host: localhost
+
+development:
+  <<: *defaults
+  database: dindin_dev
+
+#production:
+#  host: genesis.mongohq.com
+#  database: dindin
+#  port: 27018
+#  username: javaplayer@gmail.com
+#  password: guimelxxaut
+
+test: &TEST
+  <<: *defaults
+  database: dindin_test
+
+cucumber:
+  <<: *TEST
