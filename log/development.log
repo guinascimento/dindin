@@ -1,0 +1,1826 @@
+/!\ FAILSAFE /!\  Wed Feb 03 12:09:49 -0200 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Feb 03 12:11:13 -0200 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Feb 03 12:12:52 -0200 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Feb 03 12:24:46 -0200 2010
+  Status: 500 Internal Server Error
+  uninitialized constant Encoding
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/sqlite3-0.0.6/lib/sqlite3/encoding.rb:9:in `find'
+    /usr/lib/ruby/gems/1.8/gems/sqlite3-0.0.6/lib/sqlite3/database.rb:69:in `initialize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Feb 03 12:30:21 -0200 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Feb 03 12:30:24 -0200 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Feb 03 12:31:26 -0200 2010
+  Status: 500 Internal Server Error
+  uninitialized constant Encoding
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/sqlite3-0.0.6/lib/sqlite3/encoding.rb:9:in `find'
+    /usr/lib/ruby/gems/1.8/gems/sqlite3-0.0.6/lib/sqlite3/database.rb:69:in `initialize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Feb 03 12:43:45 -0200 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:46:29) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 6415ms (View: 6163 | 200 OK [http://localhost/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:46:35) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 162ms (View: 9 | 200 OK [http://localhost/invoices]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-03 12:47:04) [GET]
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 159ms (View: 130 | 200 OK [http://localhost/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-03 12:47:06) [POST]
+  Parameters: {"commit"=>"Create", "invoice"=>{"name"=>"", "tags"=>{"id"=>""}, "date"=>"", "value"=>"", "payed"=>"0"}, "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw="}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 45ms (View: 13 | 200 OK [http://localhost/invoices]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-03 12:48:03) [POST]
+  Parameters: {"commit"=>"Create", "invoice"=>{"name"=>"Sky", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw="}
+Redirected to http://localhost:3000/invoices
+Completed in 49ms | 302 Found [http://localhost/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:48:03) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (undefined method `salary' for nil:NilClass) on line #47 of app/views/invoices/index.html.haml:
+
+    app/views/invoices/index.html.haml:47:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (80.9ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-03 12:48:12) [GET]
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 29ms (View: 9 | 200 OK [http://localhost/invoices/new]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:48:13) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (undefined method `salary' for nil:NilClass) on line #47 of app/views/invoices/index.html.haml:
+
+    app/views/invoices/index.html.haml:47:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (101.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:48:14) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (undefined method `salary' for nil:NilClass) on line #47 of app/views/invoices/index.html.haml:
+
+    app/views/invoices/index.html.haml:47:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (82.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:48:16) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (undefined method `salary' for nil:NilClass) on line #47 of app/views/invoices/index.html.haml:
+
+    app/views/invoices/index.html.haml:47:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (79.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-02-03 12:51:28) [GET]
+Rendering template within layouts/application
+Rendering users/index
+Completed in 39ms (View: 20 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-02-03 12:51:30) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 62ms (View: 28 | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-02-03 12:51:41) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw=", "user"=>{"name"=>"Guilherme", "salary"=>"4.700"}}
+Redirected to http://localhost:3000/invoices
+Completed in 139ms | 302 Found [http://localhost/users]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:51:41) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 88ms (View: 47 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:51:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:51:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-02-03 12:51:51) [GET]
+Rendering template within layouts/application
+Rendering users/index
+Completed in 52ms (View: 30 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#destroy (for 127.0.0.1 at 2010-02-03 12:51:53) [DELETE]
+  Parameters: {"authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw=", "id"=>"4b698d7d1d41c81cba000008"}
+Redirected to http://localhost:3000/users
+Completed in 48ms | 302 Found [http://localhost/users/4b698d7d1d41c81cba000008]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-02-03 12:51:53) [GET]
+Rendering template within layouts/application
+Rendering users/index
+Completed in 149ms (View: 17 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-02-03 12:51:55) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 6 | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-02-03 12:52:01) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw=", "user"=>{"name"=>"Guilherme", "salary"=>"4700"}}
+Redirected to http://localhost:3000/invoices
+Completed in 25ms | 302 Found [http://localhost/users]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:52:01) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 80ms (View: 47 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:52:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:52:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-03 12:52:24) [GET]
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 141ms (View: 14 | 200 OK [http://localhost/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-03 12:52:29) [POST]
+  Parameters: {"commit"=>"Create", "invoice"=>{"name"=>"", "tags"=>{"id"=>""}, "date"=>"", "value"=>"", "payed"=>"0"}, "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw="}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 60ms (View: 27 | 200 OK [http://localhost/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:52:31) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 103ms (View: 64 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:52:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:52:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-03 12:52:33) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 17ms (View: 12 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-03 12:52:33) [GET]
+
+ActionView::MissingTemplate (Missing template report/pizza.erb in view path app/views):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-03 12:52:35) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 24ms (View: 21 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-03 12:52:35) [GET]
+
+ActionView::MissingTemplate (Missing template report/pizza.erb in view path app/views):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:52:36) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 97ms (View: 62 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:52:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:52:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-03 12:54:21) [GET]
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 28ms (View: 10 | 200 OK [http://localhost/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-03 12:54:32) [POST]
+  Parameters: {"commit"=>"Create", "invoice"=>{"name"=>"Light", "tags"=>{"id"=>""}, "date"=>"", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw="}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 49ms (View: 12 | 200 OK [http://localhost/invoices]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-03 12:54:36) [POST]
+  Parameters: {"commit"=>"Create", "invoice"=>{"name"=>"Light", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100.0", "payed"=>"0"}, "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw="}
+Redirected to http://localhost:3000/invoices
+Completed in 40ms | 302 Found [http://localhost/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:54:36) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 89ms (View: 59 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:54:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-03 12:54:41) [GET]
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 28ms (View: 10 | 200 OK [http://localhost/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-03 12:54:50) [POST]
+  Parameters: {"commit"=>"Create", "invoice"=>{"name"=>"Telefone", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"160", "payed"=>"0"}, "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw="}
+Redirected to http://localhost:3000/invoices
+Completed in 40ms | 302 Found [http://localhost/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:54:50) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 101ms (View: 70 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:54:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:54:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:54:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-03 12:54:59) [GET]
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 74ms (View: 11 | 200 OK [http://localhost/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-03 12:55:20) [POST]
+  Parameters: {"commit"=>"Create", "invoice"=>{"name"=>"Alimentação", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"400", "payed"=>"0"}, "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw="}
+Redirected to http://localhost:3000/invoices
+Completed in 49ms | 302 Found [http://localhost/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:55:20) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 99ms (View: 65 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:55:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:55:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:55:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-03 12:55:22) [GET]
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 51ms (View: 23 | 200 OK [http://localhost/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-03 12:55:42) [POST]
+  Parameters: {"commit"=>"Create", "invoice"=>{"name"=>"Passagem", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"300", "payed"=>"0"}, "authenticity_token"=>"Uz06+6uL32MH3StpuPUcW3iiMJ6DQq0Px9Crt+cSQRw="}
+Redirected to http://localhost:3000/invoices
+Completed in 40ms | 302 Found [http://localhost/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 12:55:42) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 106ms (View: 74 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:55:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:55:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:55:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 12:56:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 13:00:20) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 161ms (View: 97 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:20) [GET]
+
+ActionController::RoutingError (No route matches "/images%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20o.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:20) [GET]
+
+ActionController::RoutingError (No route matches "/images%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20o.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 13:00:23) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 117ms (View: 78 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:24) [GET]
+
+ActionController::RoutingError (No route matches "/images%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20o.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:24) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:24) [GET]
+
+ActionController::RoutingError (No route matches "/images%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20o.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:28) [GET]
+
+ActionController::RoutingError (No route matches "/images%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20o.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 13:00:43) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 290ms (View: 256 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:00:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 13:04:07) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 116ms (View: 82 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:04:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:04:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:04:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-03 13:04:10) [GET]
+
+NoMethodError (undefined method `open_flash_chart_object' for #<ReportController:0xb68281b8>):
+  app/controllers/report_controller.rb:5:in `index'
+  app/controllers/report_controller.rb:3:in `index'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (72.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+/!\ FAILSAFE /!\  Wed Feb 03 13:06:06 -0200 2010
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 13:10:24) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 190ms (View: 143 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:10:24) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:10:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:10:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 13:24:50) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 203ms (View: 169 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:24:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-03 13:24:52) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 19ms (View: 14 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-03 13:25:18) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 13ms (View: 10 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-03 13:25:18) [GET]
+
+NameError (uninitialized constant ReportController::Gruff):
+  app/controllers/report_controller.rb:6:in `pizza'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (186.2ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-03 13:29:18) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 406ms (View: 380 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-03 13:29:19) [GET]
+Sending data bart_scores.png
+Completed in 1714ms (View: 2 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 13:29:26) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 442ms (View: 324 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:29:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:29:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-03 13:29:34) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 24ms (View: 15 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-03 13:29:35) [GET]
+Sending data bart_scores.png
+Completed in 1074ms (View: 2 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-03 13:29:59) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 322ms (View: 194 | 200 OK [http://localhost/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:29:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-03 13:29:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
