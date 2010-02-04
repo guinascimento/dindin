@@ -1,27 +1,29 @@
 #content	#profile_container		%table#calendar
 			%tr
-				%td
-					= link_to 'January', '1/invoices'
-				%td
-					= link_to 'February', '2/invoices'
-				%td
-					= link_to 'March', '3/invoices'
-				%td
-					= link_to 'April', '4/invoices'
-				%td
-					= link_to 'May', '5/invoices'
-				%td
-					= link_to 'June', '6/invoices'
+				%td{:id => current_month?(1) }
+					= link_to 'January', '1/invoices/list'
+				%td{:id => current_month?(2) }
+					= link_to 'February', '2/invoices/list'
+				%td{:id => current_month?(3) }
+					= link_to 'March', '3/invoices/list'
+				%td{:id => current_month?(4) }
+					= link_to 'April', '4/invoices/list'
+				%td{:id => current_month?(5) }
+					= link_to 'May', '5/invoices/list'
+				%td{:id => current_month?(6) }
+					= link_to 'June', '6/invoices/list'
 			%tr
-				%td
-					= link_to 'July', '7/invoices'
-				%td
-					= link_to 'August', '8/invoices'
-				%td
-					= link_to 'October', '9/invoices'
-				%td
-					= link_to 'September', '10/invoices'
-				%td
+				%td{:id => current_month?(7) }
+					= link_to 'July', '7/invoices/list'
+				%td{:id => current_month?(8) }
+					= link_to 'August', '8/invoices/list'
+				%td{:id => current_month?(9) }
+					= link_to 'October', '9/invoices/list'
+				%td{:id => current_month?(10) }
+					= link_to 'September', '10/invoices/list'
+				%td{:id => current_month?(11) }
 					= link_to 'November', '11/invoices'
-				%td
-					= link_to 'December', '12/invoices'
+				%td{:id => current_month?(12) }
+					= link_to 'December', '12/invoices/list'
+
+	=image_tag '/reports/bar'

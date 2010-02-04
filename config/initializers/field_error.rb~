@@ -1,5 +1,5 @@
 ActionView::Base.field_error_proc = Proc.new do |html_tag, instance|
-  error_style = "border-bottom-width: 3px;"
+  error_style = "border-bottom-width: 3px; border-bottom-style: dotted; border-bottom-color: #ee2d24"
   if html_tag =~ /<(input|textarea|select)[^>]+style=/
 	style_attribute = html_tag =~ /style=['"]/
 	html_tag.insert(style_attribute + 7, "#{error_style}; ")

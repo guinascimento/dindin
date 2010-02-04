@@ -11,7 +11,7 @@ module InvoicesHelper
 		if invoice.payed?
 			"<img alt='Yes' src='/images/yes.png' width='19px' height='19px' />"
 		else
-			"<img src='/public/images/no.PNG' width='19px' height='19px' />"
+			"<img alt='Yes' src='/images/no.png' width='19px' height='19px' />"
 		end
 	end
 
@@ -23,9 +23,7 @@ module InvoicesHelper
 		tags = ""
 		invoice.tags.each do |tag|
 			if tag.name != nil
-				tag.name.split(",").collect(&:strip).each do |t|
 					tags += "<span class='tag'>#{t}</span>"
-				end
 			end
 		end
 		tags

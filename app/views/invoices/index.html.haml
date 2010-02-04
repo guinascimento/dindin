@@ -1,2 +1,17 @@
 #content	#profile_container		#left
-			= link_to 'New Invoice', 'invoices/new'		#profile_info			%table{:id => "operation-list"}				%thead					%tr						%th{:scope => "col", :class => "date"}							Date						%th{:scope => "col", :class => "title"}							Name						%th{:scope => "col", :class => "amount"}							Value						%th{:scope => "col", :class => "status"}							Paid ?						%th{:scope => "col", :class => "action"}				%tbody					- @invoices.each do |invoice|						%tr{:class => "new pending expense  operation this_month", :id => invoice.id}							%td{:class => "date"}								%span									=invoice.date.strftime('%d/%m/%Y')							%td{:class => "title"}								= invoice.name								= tags invoice							%td{:class => "amount"}								%span									=number_to_currency invoice.value, :unit=> 'R$ ', :separator => ',', :delimiter => '.'							%td{:class => "status"}								%span									=payed? invoice							%td{:class => "action"}								= link_to 'Edit', edit_invoice_path(invoice)								= link_to 'Remove', invoice, :method => :delete			%p				%span.residue					-if @invoices.count > 0						Debt: #{number_to_currency Invoice.sum(:value), :unit=> 'R$ ', :separator => ',', :delimiter => '.'}						%br						#{"----------------------------"}						%br						Salary: #{number_to_currency @user.salary, :unit=> 'R$ ', :separator => ',', :delimiter => '.'}						%br						%br						=residue @user.salary, Invoice.sum(:value)
+			= link_to "New Invoice", "/#{params[:month]}/invoices/new"		#profile_info			%table{:id => "operation-list"}				%thead					%tr						%th{:scope => "col", :class => "date"}							Maturity						%th{:scope => "col", :class => "title"}							Name						%th{:scope => "col", :class => "amount"}							Value						%th{:scope => "col", :class => "status"}							Paid ?						%th{:scope => "col", :class => "action"}				%tbody					- @invoices.each do |invoice|						%tr{:id => invoice.id}							%td{:class => "date"}								%span									=invoice.date.strftime('%d/%m/%Y')							%td{:class => "title"}								= invoice.name								= tags invoice							%td{:class => "amount"}								%span									=number_to_currency invoice.value, :unit=> 'R$ ', :separator => ',', :delimiter => '.'							%td{:class => "status"}								%span									=payed? invoice							%td{:class => "action"}								= link_to 'Remove', "/#{params[:month]}/invoices/#{invoice.id}", :method => :delete			%p				%table#result
+					%tr
+						%td
+							Debt: #{number_to_currency Invoice.sum(:value), :unit=> 'R$ ', :separator => ',', :delimiter => '.'}
+					%tr
+						%td#line
+							#{"----------------------------"}
+					%tr
+						%td
+							Salary: #{number_to_currency @user.salary, :unit=> 'R$ ', :separator => ',', :delimiter => '.'}
+					%tr
+						%td
+							&nbsp;
+					%tr
+						%td
+							=residue @user.salary, Invoice.sum(:value)

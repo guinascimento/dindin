@@ -3,7 +3,7 @@ class ReportController < ApplicationController
   end
 
   def pizza
-    g = Gruff::Pie.new(450)
+    g = Gruff::Pie.new(500)
     g.title = "Gastos Mensais"
 
     @data = Invoice.find(:all)
@@ -13,4 +13,29 @@ class ReportController < ApplicationController
 
     send_data(g.to_blob, :disposition => 'inline', :type => 'image/png', :filename => "bart_scores.png")
   end
+
+	def month m
+		case m
+		  when 2
+    		"February"
+		  when 4
+    		"April"
+		  when 9
+    		"October"
+		  when 11
+    		"November"
+		end
+	end
+
+	def bar
+		g = Gruff::Bar.new(500)
+		g.title = 'Monthly Expenses'
+
+    @data = Worksheet.find(:all)
+    @data.each do |d|
+      g.data(month(d.month), d.total_debt)
+    end
+
+    send_data(g.to_blob, :disposition => 'inline', :type => 'image/png', :filename => "bart_scores.png")
+	end
 end

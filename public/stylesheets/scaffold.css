@@ -459,11 +459,6 @@ div.group, hr {
 }
 
 fieldset hr {
-  width: 485px;
-  margin: 5px 0px 13px 0px;
-  height: 1px;
-  background-color: #99d0da;
-  border: 0px;
 }
 
 div.field input[type="text"],
@@ -538,9 +533,7 @@ form label {
 form fieldset {
   padding:10px 0 0 15px;
   margin:0 0 20px 0;
-  overflow:hidden;
   background: #e5f2f5;
-  width: 600px;
 }
 
 div#signup_box h1 {
@@ -592,11 +585,11 @@ border-bottom-color: #b60040;
 
 }
 
-span.residue {
-    font-size: 15px;
+
+#result {
+	font-size: 15px;
+	border-collapse: collapse;
 }
-
-
 
 
 #header {
@@ -713,7 +706,11 @@ span.residue {
 
 
 
+#calendar #current_month {
+  background: #CDEB8B;
+}
 
-
-
-
+#report {
+	padding-left: 150px;
+	padding-top: 10px;
+}

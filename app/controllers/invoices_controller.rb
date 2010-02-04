@@ -35,7 +35,7 @@ class InvoicesController < ApplicationController
 
   # GET /invoices/1/edit
   def edit
-    @invoice = Invoice.find(params[:id])
+    @invoice = Invoice.find(params[:id], :conditions => { :month => params[:month].to_i })
   end
 
   # POST /invoices
@@ -44,10 +44,19 @@ class InvoicesController < ApplicationController
     @invoice = Invoice.new(params[:invoice])
 		@invoice.month = params[:month]
 
+		tags = params[:tags]
+		if tags != nil
+			tags.each do |tag|
+				tag.split(",").collect(&:strip).each do |name|
+					@invoice.tags << [ Tag.new(:name => name) ]
+				end
+			end
+		end
+
     respond_to do |format|
       if @invoice.save
         flash[:notice] = 'Invoice was successfully created.'
-        format.html { redirect_to "/#{params[:month]}/invoices" }
+        format.html { redirect_to "/#{params[:month]}/invoices/list" }
         format.xml  { render :xml => @invoice, :status => :created, :location => @invoice }
       else
         format.html { render :action => "new" }
@@ -80,7 +89,7 @@ class InvoicesController < ApplicationController
     @invoice.destroy
 
     respond_to do |format|
-      format.html { redirect_to(invoices_url) }
+      format.html { redirect_to "/#{params[:month]}/invoices/list" }
       format.xml  { head :ok }
     end
   end

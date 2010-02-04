@@ -23,9 +23,7 @@ module InvoicesHelper
 		tags = ""
 		invoice.tags.each do |tag|
 			if tag.name != nil
-				tag.name.split(",").collect(&:strip).each do |t|
-					tags += "<span class='tag'>#{t}</span>"
-				end
+					tags += "<span class='tag'>#{tag.name}</span>"
 			end
 		end
 		tags

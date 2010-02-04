@@ -13,4 +13,45 @@ class ReportController < ApplicationController
 
     send_data(g.to_blob, :disposition => 'inline', :type => 'image/png', :filename => "bart_scores.png")
   end
+
+	def month m
+		case m
+		  when 1
+    		"January"
+		  when 2
+    		"February"
+		  when 3
+    		"March"
+		  when 4
+    		"April"
+		  when 5
+    		"May"
+		  when 6
+    		"June"
+		  when 7
+    		"July"
+		  when 8
+    		"August"
+		  when 9
+    		"September"
+		  when 10
+    		"October"
+		  when 11
+    		"November"
+		  when 12
+    		"December"
+		end
+	end
+
+	def bar
+		g = Gruff::Bar.new(500)
+		g.title = 'Monthly Expenses'
+
+    @data = Worksheet.find(:all)
+    @data.each do |d|
+      g.data(month(d.month), d.total_debt)
+    end
+
+    send_data(g.to_blob, :disposition => 'inline', :type => 'image/png', :filename => "bart_scores.png")
+	end
 end

@@ -3,7 +3,7 @@ module ApplicationHelper
 	  "current" if params[:controller] == controller_name
 	end
 
-	def current_month?(month)
+	def current_month? month
 		time = Time.new
 		"current_month" if time.month == month
 	end

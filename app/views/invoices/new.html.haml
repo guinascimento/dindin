@@ -1,8 +1,7 @@
 #content
   #profile_container
     #left
-      %a{:href => invoices_path}
-        Back
+      =link_to "Back", "/#{params[:month]}/invoices/list"
       %br
       %br
       #profile_info
@@ -20,13 +19,12 @@
                   =f.text_field :value
                 %div{:class => "field separated"}
                   %label{:for => "invoice_date"}
-                    Date
+                    Maturity
                   =f.text_field :date
                 %div{:class => "field separated"}
                   %label{:for => "invoice_tags"}
                     Tags
-                  - f.fields_for :tags do |tag_form|
-                    =tag_form.text_field :id
+                  =text_field_tag 'tags[]'
                 %div{:class => "field separated"}
                   %label{:for => "invoice_payed"}
                     Paid ?
