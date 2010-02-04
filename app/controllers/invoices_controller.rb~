@@ -2,7 +2,7 @@ class InvoicesController < ApplicationController
   # GET /invoices
   # GET /invoices.xml
   def index
-    @invoices = Invoice.find(:all, :conditions => { :month => params[:month].to_i })
+    @invoices = Invoice.find(:all, :conditions => { :month => params[:month] })
     @user = User.last
     
     respond_to do |format|

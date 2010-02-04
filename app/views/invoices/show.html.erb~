@@ -1,0 +1,942 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+ 
+<head> 
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" /> 
+  <title>Backpack Calendar</title> 
+ 
+  <link href="http://asset1.backpackit.com/stylesheets/cache/all.css?1265140998" media="all" rel="stylesheet" type="text/css" /><noscript><style type="text/css">#Header, #Wrapper, #Container, #modal_container, .modal_container { display: none }</style></noscript> 
+  <link href="http://asset2.backpackit.com/stylesheets/print/application.css?1265140998" media="print" rel="stylesheet" type="text/css" /> 
+  <!--[if IE]><link href="http://asset3.backpackit.com/stylesheets/ie/calendar.css?1265140998" media="screen" rel="stylesheet" type="text/css" /><![endif]--> 
+  
+  <style type="text/css" title="Color scheme"> 
+    a:link, a:visited,
+    div.widget a.existing_comments_icon {
+      color: #1d5fc2;
+    }
+ 
+    div.global_header {
+      background: #3185c5;
+    }
+ 
+    div.tab_container a:link,
+    div.tab_container a:visited,
+    div.tab_container ul li a.current:hover {
+      color: #ffffff;
+    }
+ 
+    div#Sidebar div#Pages div.pagesnav a:link,
+    div#Sidebar div#Pages div.pagesnav a:visited {
+      color: #1d5fc2;
+    }
+ 
+    div.widget_bar a:link,
+    div.widget_bar a:visited,
+    table.messages th.post_a_new_message a {
+      color: #2391e6;
+    }
+  </style> 
+ 
+ 
+ 
+  <script type="text/javascript"> 
+//<![CDATA[
+function async(f) { async.f.push(f) }; async.f = []
+//]]>
+</script> 
+  
+  
+</head> 
+ 
+<body class='calendar'> 
+ 
+<noscript> 
+  <div class="javascript_disabled_notification"> 
+    <div class="inner"> 
+      <h1>You need to change a setting in your web browser</h1> 
+      <p>Backpack requires a browser feature called <strong>JavaScript</strong>. All modern browsers support JavaScript. You probably just need to change a setting in order to turn it on.</p> 
+ 
+      <p>Please see: <a href="http://www.google.com/support/bin/answer.py?answer=23852">How to enable JavaScript in your browser</a>.</p> 
+ 
+      <p>If you use ad-blocking software, it may require you to allow JavaScript from backpackit.com.</p> 
+ 
+      <p>Once you've enabled JavaScript you can <a href="">try loading this page again</a>.</p> 
+ 
+      <p>Thank you.</p> 
+    </div> 
+  </div> 
+</noscript> 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+<div class="global_header"> 
+  <div class="tab_container"> 
+    <ul class="tabs"> 
+  
+    <li><a href="/welcome">Welcome</a></li> 
+  
+  <li><a href="/newsroom" class="">Newsroom</a></li> 
+  <li><a href="/pages/last" class="">Pages</a></li> 
+  <li><a href="/calendar" class="current" id="calendar_tab"><span>Calendar</span></a></li> 
+  <li><a href="/reminders">Reminders</a></li> 
+  <li><a href="/writeboards">Writeboards</a></li> 
+  <li><a href="/journal_entries" class="false">Journal</a></li> 
+</ul> 
+ 
+ 
+  <ul id="account_links"> 
+    
+      <li><a href="/account/color_scheme" class="">Settings</a></li> 
+      
+        <li><a href="/users">Users</a></li> 
+      
+      
+        <li><a href="/account">Account</a></li> 
+      
+    
+    <li><a href="/users/479107/edit">My info</a></li> 
+    <li><a href="/session" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href;var m = document.createElement('input'); m.setAttribute('type', 'hidden'); m.setAttribute('name', '_method'); m.setAttribute('value', 'delete'); f.appendChild(m);var s = document.createElement('input'); s.setAttribute('type', 'hidden'); s.setAttribute('name', 'authenticity_token'); s.setAttribute('value', 'sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc='); f.appendChild(s);f.submit();return false;">Sign out</a></li> 
+  </ul> 
+ 
+ 
+  </div> 
+</div> 
+ 
+ 
+<div id="Wrapper"> 
+<div id="Container"> 
+ 
+  <div id="Main"> 
+    <div class="inner"> 
+      
+        <div id="flash" class="notice" style="display:none"></div> 
+      
+ 
+      
+ 
+<div id="calendar_content"> 
+  <div id="calendar"> 
+  <div id="blank_slate"> 
+  <h1>Welcome to your Backpack Calendar. It's time to fill it up!</h1> 
+  <p>To get started, click a day and enter an event in the sidebar. It's that simple.</p> 
+</div> 
+ 
+ 
+  <div id="navigation" class="next_prev_calendar"> 
+  <a href="#" id="next_cal" onclick="$(&quot;next_cal&quot;).addClassName('busy'); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events?date=2010-02-03&amp;offset=25', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')}); return false;" title="March 2010"><span><img src="http://asset3.backpackit.com/images/next_cal.gif?1265140998" /></span></a> 
+  <a href="#" id="previous_cal" onclick="$(&quot;previous_cal&quot;).addClassName('busy'); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events?date=2010-02-03&amp;offset=-38', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')}); return false;" title="January 2010"><span><img src="http://asset0.backpackit.com/images/prev_cal.gif?1265140998" /></span></a> 
+  
+  <script type="text/javascript"> 
+//<![CDATA[
+async("Droppables.add(\"previous_cal\", {hoverclass:'hover', onDrop:function(element){new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/move?date=2009-12-27&amp;offset=35', {asynchronous:true, evalScripts:true, parameters:'id=' + encodeURIComponent(element.id) + '&authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})}});")
+//]]>
+</script> 
+  <script type="text/javascript"> 
+//<![CDATA[
+async("Droppables.add(\"next_cal\", {hoverclass:'hover', onDrop:function(element){new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/move?date=2010-04-10&amp;offset=-69', {asynchronous:true, evalScripts:true, parameters:'id=' + encodeURIComponent(element.id) + '&authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})}});")
+//]]>
+</script> 
+  
+</div> 
+ 
+ 
+  <h1>Next 6 weeks</h1> 
+ 
+  <div id="grid" > 
+    <div class="week header"> 
+      <div class="th">Sun</div> 
+      <div class="th">Mon</div> 
+      <div class="th">Tues</div> 
+      <div class="th">Wed</div> 
+      <div class="th">Thur</div> 
+      <div class="th">Fri</div> 
+      <div class="th">Sat</div> 
+    </div> 
+ 
+    <div class="week top_border"> 
+  <div class="spanned_events"> 
+    <div class="all_day" style="height:1%"><!--IE--></div> 
+  </div> 
+    <div class="td" id="day_2010-01-31" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-01-31&amp;offset=0', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first other_month last_week first_of_grid"><div class="day"> 
+    <div class="cell_title">January 31</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-01-31\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-01-31&offset=0\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-01" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-01&amp;offset=-1', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first_week first_of_month"><div class="day"> 
+    <div class="cell_title">February 1</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-01\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-01&offset=-1\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-02" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-02&amp;offset=-2', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first_week"><div class="day"> 
+    <div class="cell_title"> 2</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-02\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-02&offset=-2\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-03" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-03&amp;offset=-3', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color today selected first_week"><div class="day"> 
+    <div class="cell_title"><span class="today_label">Today </span> 3</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-03\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-03&offset=-3\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-04" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-04&amp;offset=-4', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first_week"><div class="day"> 
+    <div class="cell_title"> 4</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-04\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-04&offset=-4\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-05" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-05&amp;offset=-5', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first_week"><div class="day"> 
+    <div class="cell_title"> 5</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-05\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-05&offset=-5\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-06" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-06&amp;offset=-6', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last first_week"><div class="day"> 
+    <div class="cell_title"> 6</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-06\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-06&offset=-6\")")
+//]]>
+</script> 
+ 
+</div> 
+<div class="week top_border"> 
+  <div class="spanned_events"> 
+    <div class="all_day" style="height:1%"><!--IE--></div> 
+  </div> 
+    <div class="td" id="day_2010-02-07" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-07&amp;offset=-7', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first first_week"><div class="day"> 
+    <div class="cell_title"> 7</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-07\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-07&offset=-7\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-08" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-08&amp;offset=-8', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 8</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-08\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-08&offset=-8\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-09" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-09&amp;offset=-9', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 9</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-09\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-09&offset=-9\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-10" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-10&amp;offset=-10', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 10</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-10\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-10&offset=-10\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-11" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-11&amp;offset=-11', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 11</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-11\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-11&offset=-11\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-12" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-12&amp;offset=-12', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 12</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-12\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-12&offset=-12\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-13" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-13&amp;offset=-13', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last"><div class="day"> 
+    <div class="cell_title"> 13</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-13\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-13&offset=-13\")")
+//]]>
+</script> 
+ 
+</div> 
+<div class="week"> 
+  <div class="spanned_events"> 
+    <div class="all_day" style="height:1%"><!--IE--></div> 
+  </div> 
+    <div class="td" id="day_2010-02-14" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-14&amp;offset=-14', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first"><div class="day"> 
+    <div class="cell_title"> 14</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-14\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-14&offset=-14\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-15" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-15&amp;offset=-15', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 15</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-15\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-15&offset=-15\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-16" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-16&amp;offset=-16', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 16</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-16\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-16&offset=-16\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-17" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-17&amp;offset=-17', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 17</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-17\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-17&offset=-17\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-18" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-18&amp;offset=-18', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 18</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-18\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-18&offset=-18\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-19" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-19&amp;offset=-19', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color "><div class="day"> 
+    <div class="cell_title"> 19</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-19\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-19&offset=-19\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-20" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-20&amp;offset=-20', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last"><div class="day"> 
+    <div class="cell_title"> 20</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-20\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-20&offset=-20\")")
+//]]>
+</script> 
+ 
+</div> 
+<div class="week"> 
+  <div class="spanned_events"> 
+    <div class="all_day" style="height:1%"><!--IE--></div> 
+  </div> 
+    <div class="td" id="day_2010-02-21" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-21&amp;offset=-21', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first"><div class="day"> 
+    <div class="cell_title"> 21</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-21\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-21&offset=-21\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-22" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-22&amp;offset=-22', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last_week"><div class="day"> 
+    <div class="cell_title"> 22</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-22\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-22&offset=-22\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-23" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-23&amp;offset=-23', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last_week"><div class="day"> 
+    <div class="cell_title"> 23</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-23\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-23&offset=-23\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-24" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-24&amp;offset=-24', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last_week"><div class="day"> 
+    <div class="cell_title"> 24</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-24\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-24&offset=-24\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-25" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-25&amp;offset=-25', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last_week"><div class="day"> 
+    <div class="cell_title"> 25</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-25\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-25&offset=-25\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-26" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-26&amp;offset=-26', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last_week"><div class="day"> 
+    <div class="cell_title"> 26</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-26\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-26&offset=-26\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-02-27" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-27&amp;offset=-27', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last last_week"><div class="day"> 
+    <div class="cell_title"> 27</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-27\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-27&offset=-27\")")
+//]]>
+</script> 
+ 
+</div> 
+<div class="week top_border"> 
+  <div class="spanned_events"> 
+    <div class="all_day" style="height:1%"><!--IE--></div> 
+  </div> 
+    <div class="td" id="day_2010-02-28" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-02-28&amp;offset=-28', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first last_week"><div class="day"> 
+    <div class="cell_title"> 28</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-02-28\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-02-28&offset=-28\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-01" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-01&amp;offset=-29', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month first_week first_of_month"><div class="day"> 
+    <div class="cell_title">March 1</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-01\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-01&offset=-29\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-02" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-02&amp;offset=-30', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month first_week"><div class="day"> 
+    <div class="cell_title"> 2</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-02\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-02&offset=-30\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-03" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-03&amp;offset=-31', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month first_week"><div class="day"> 
+    <div class="cell_title"> 3</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-03\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-03&offset=-31\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-04" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-04&amp;offset=-32', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month first_week"><div class="day"> 
+    <div class="cell_title"> 4</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-04\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-04&offset=-32\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-05" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-05&amp;offset=-33', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month first_week"><div class="day"> 
+    <div class="cell_title"> 5</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-05\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-05&offset=-33\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-06" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-06&amp;offset=-34', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last other_month first_week"><div class="day"> 
+    <div class="cell_title"> 6</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-06\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-06&offset=-34\")")
+//]]>
+</script> 
+ 
+</div> 
+<div class="week top_border"> 
+  <div class="spanned_events"> 
+    <div class="all_day" style="height:1%"><!--IE--></div> 
+  </div> 
+    <div class="td" id="day_2010-03-07" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-07&amp;offset=-35', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color first other_month first_week"><div class="day"> 
+    <div class="cell_title"> 7</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-07\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-07&offset=-35\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-08" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-08&amp;offset=-36', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month"><div class="day"> 
+    <div class="cell_title"> 8</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-08\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-08&offset=-36\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-09" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-09&amp;offset=-37', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month"><div class="day"> 
+    <div class="cell_title"> 9</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-09\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-09&offset=-37\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-10" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-10&amp;offset=-38', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month"><div class="day"> 
+    <div class="cell_title"> 10</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-10\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-10&offset=-38\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-11" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-11&amp;offset=-39', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month"><div class="day"> 
+    <div class="cell_title"> 11</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-11\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-11&offset=-39\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-12" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-12&amp;offset=-40', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color other_month"><div class="day"> 
+    <div class="cell_title"> 12</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-12\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-12&offset=-40\")")
+//]]>
+</script> 
+ 
+    <div class="td" id="day_2010-03-13" onclick="if (!Grid.browsable()) return false; Grid.browseTo(this); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events/browse?date=2010-03-13&amp;offset=-41', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')})"> 
+  <div class="color last other_month"><div class="day"> 
+    <div class="cell_title"> 13</div> 
+    <ol> 
+    </ol> 
+  </div></div> 
+</div> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("new Day(\"day_2010-03-13\").makeDroppable(\"http://eusoueu.backpackit.com/calendar_events/move?date=2010-03-13&offset=-41\")")
+//]]>
+</script> 
+ 
+</div> 
+ 
+ 
+    <div class="week"></div> 
+  </div> 
+</div> 
+ 
+ 
+</div> 
+ 
+ 
+ 
+<script type="text/javascript"> 
+//<![CDATA[
+async("\n  Grid.selectedDay = new Day(\"day_2010-02-03\");\n  $(\"event_title\").focus();\n")
+//]]>
+</script> 
+ 
+    </div> 
+    <div class="bottom"> 
+      
+ 
+      <div id="Footer"> 
+  <a class="image" href="http://backpackit.com"><img alt="Backpack logo" height="41" id="Logo" src="http://asset3.backpackit.com/images/footer-logo.gif?1265140998" width="49" /></a> 
+  <div> 
+    <p> 
+      <span class="admin"> 
+        <a href="http://backpackit.com/help/?e=Z3VpbGhlcm1lQHBvcnRhbGphdmEuY29t&amp;u=aHR0cDovL2V1c291ZXUuYmFja3BhY2tpdC5jb20vY2FsZW5kYXI%3D&amp;n=Z3VpbmFzY2ltZW50bw%3D%3D&amp;f=R3VpbGhlcm1lIE5hc2NpbWVudG8%3D" target="_blank">Help/support</a> | <a target="_blank" href="http://productblog.37signals.com/">Product blog</a> | <a target="_blank" href="https://answers.37signals.com/backpack">Backpack Q&amp;A</a></span> 
+    </p> 
+    <p> 
+      Backpack is a service of <a href="http://37signals.com" target=_blank>37signals.</a>&nbsp;&nbsp;
+      <span class="admin"> 
+        <a href="http://backpackit.com/privacy.html" target="_blank">Privacy Policy</a> | <a href="http://backpackit.com/terms.html" target="_blank">Terms of Service</a> 
+      </span> 
+    </p> 
+  </div> 
+</div> 
+ 
+ 
+    </div> 
+ 
+ 
+ 
+  </div> 
+ 
+  <div id="Sidebar"> 
+    <div class="inner"> 
+      
+  <div id="calendar_sidebar"> 
+  <div id="day_sidebar"> 
+    <div class="today"> 
+      <div id="calendar_date" class="day_box"> 
+        <div class="header"> 
+          <h1>Today February  3</h1> 
+          
+        </div> 
+        
+ 
+        <div id="add_event" class="sidebar_form"> 
+  <h1>Add an event</h1> 
+  <form action="http://eusoueu.backpackit.com/calendar_events?date=2010-02-03&amp;offset=-3" id="event_form" method="post" onsubmit="$(this).addClassName('busy'); new Ajax.Request('http://eusoueu.backpackit.com/calendar_events?date=2010-02-03&amp;offset=-3', {asynchronous:true, evalScripts:true, method:'post', parameters:Form.serialize(this)}); return false;"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=" /></div> 
+    
+ 
+<div id="event_form_content"> 
+  <p><input autocomplete="off" id="event_title" name="event[title]" size="30" type="text" /></p> 
+  <div id="event_form_tip"> 
+    <p class="tip">"6pm Dinner" <span>(<a href="#" onclick="window.open(&quot;http://eusoueu.backpackit.com/calendar_events/new/example&quot;, &quot;popup&quot;, &quot;toolbar=no,status=no,location=no,menubar=no,height=480,resizable=yes,width=400,scrollbars=yes,directories=no&quot;); return false;">How do I type dates/times?</a>)</span></p> 
+  </div> 
+ 
+  <div class="options"> 
+    
+      <input id="event_calendar_id" name="event[calendar_id]" type="hidden" value="577853" /> 
+    
+ 
+      <p>Repeat
+    <select id="event_repeat_type" name="event[repeat_type]"><option value="">None</option> 
+<option value="daily">Every day</option> 
+<option value="weekly">Every week</option> 
+<option value="biweekly">Every other week</option> 
+<option value="monthly">Every month</option> 
+<option value="yearly">Every year</option></select> 
+  </p> 
+  <p id="repeat_for" style="display: none">for
+    <select id="event_repeat_count" name="event[repeat_count]"><option value="2">2</option> 
+<option value="3">3</option> 
+<option value="4">4</option> 
+<option value="5">5</option> 
+<option value="6">6</option> 
+<option value="7">7</option> 
+<option value="8">8</option> 
+<option value="9">9</option> 
+<option value="10">10</option> 
+<option value="11">11</option> 
+<option value="12">12</option> 
+<option value="13">13</option> 
+<option value="14">14</option> 
+<option value="15">15</option> 
+<option value="16">16</option> 
+<option value="17">17</option> 
+<option value="18">18</option> 
+<option value="19">19</option> 
+<option value="20">20</option> 
+<option value="21">21</option> 
+<option value="22">22</option> 
+<option value="23">23</option> 
+<option value="24">24</option> 
+<option value="25">25</option> 
+<option value="26">26</option> 
+<option value="27">27</option> 
+<option value="28">28</option> 
+<option value="29">29</option> 
+<option value="30">30</option> 
+<option value="31">31</option> 
+<option value="32">32</option> 
+<option value="33">33</option> 
+<option value="34">34</option> 
+<option value="35">35</option> 
+<option value="36">36</option> 
+<option value="37">37</option> 
+<option value="38">38</option> 
+<option value="39">39</option> 
+<option value="40">40</option> 
+<option value="41">41</option> 
+<option value="42">42</option> 
+<option value="43">43</option> 
+<option value="44">44</option> 
+<option value="45">45</option> 
+<option value="46">46</option> 
+<option value="47">47</option> 
+<option value="48">48</option> 
+<option value="49">49</option> 
+<option value="50">50</option></select> 
+    <span id="repeat_for_units">day</span> 
+  </p> 
+<script type="text/javascript"> 
+//<![CDATA[
+async("\n  Calendar.adjustEventRepeatControls();\n  $('event_repeat_type', 'event_repeat_count').each(function(element) {\n    new Form.Element.EventObserver(element, Calendar.adjustEventRepeatControls);\n  });\n")
+//]]>
+</script> 
+ 
+ 
+    <p><label><input name="event[remind]" type="hidden" value="0" /><input id="event_remind" name="event[remind]" onclick="$$('#remindee_options').invoke('toggle')" type="checkbox" value="1" /> Send an Email/SMS 30 minutes before</label></p> 
+ 
+      </div> 
+</div> 
+ 
+ 
+    <span id="add_event_spinner" class="spinner"></span> 
+    <p class="submit"><input name="commit" type="submit" value="Add event" /></p> 
+  </form> 
+</div> 
+ 
+      </div> 
+    </div> 
+  </div> 
+  <div id="calendar_drawer"> 
+    <div id="calendars"> 
+  <h2> 
+    <span class="add_calendar" id="add_calendar_link"> 
+      <a href="#" onclick="$(&quot;add_calendar&quot;).addClassName('busy'); new Ajax.Request('http://eusoueu.backpackit.com/calendars/new', {asynchronous:true, evalScripts:true, parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')}); return false;">Add a calendar</a> 
+    </span> 
+    Calendars</h2> 
+    <div id="add_calendar"> 
+      <span class="spinner" id="add_calendar_spinner"></span> 
+    </div> 
+  <form> 
+    <ul class=""> 
+      <li class="calendar" id="calendar_577853"> 
+  <label> 
+    
+    <span class="swatch" style="background-color: #000099">&nbsp;</span> 
+  </label> 
+  <span class="spinner"></span> 
+  <a href="#" onclick="$(&quot;calendar_577853&quot;).addClassName('busy'); new Ajax.Request('http://eusoueu.backpackit.com/calendars/577853/edit', {asynchronous:true, evalScripts:true, method:'get', parameters:'authenticity_token=' + encodeURIComponent('sBSgrtXfgEidVN3Z1K6PvOGJQL3HT82KSE/6xuYJpuc=')}); return false;">Guilherme N.</a> 
+  
+</li> 
+ 
+    </ul> 
+  </form> 
+</div> 
+ 
+  </div> 
+ 
+  <div class="global_ical_link"> 
+    <p id="link_to_feed"> 
+      <a href="/calendar/subscriptions" class="image"><img alt="Ical" src="http://asset2.backpackit.com/images/ical.gif?1265140998" /></a> 
+      <a href="/calendar/subscriptions">How to subscribe to calendars</a> 
+    </p> 
+  </div> 
+ 
+</div> 
+ 
+ 
+ 
+    </div> 
+  </div> 
+ 
+</div> 
+</div> 
+ 
+<script src="http://asset1.backpackit.com/sprockets.js?1265140966" type="text/javascript"></script> 
+ 
+</body> 
+</html> 

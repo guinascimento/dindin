@@ -10,7 +10,7 @@
         <div id='site-title'>Dindin</div>
         <div id='site-subtitle'>Keep track of your money!</div>
         <div id='navigation'>
-          <%= link_to "Dashboard", { :controller => "dashboard", :action => "index" }, :class => is_active?("invoices") %>
+          <%= link_to "Dashboard", { :controller => "invoices", :action => "index" }, :class => is_active?("invoices") %>
           <span class="separator"> | </span>
           <%= link_to "TODO", { :controller => "reports", :action => "index" }, :class => is_active?("report") %>
           <span class="separator"> | </span>

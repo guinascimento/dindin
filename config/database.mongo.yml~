@@ -3,7 +3,7 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: dindin_dev
+  database: dindin_development
 
 #production:
 #  host: genesis.mongohq.com

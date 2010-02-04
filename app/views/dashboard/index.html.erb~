@@ -1,0 +1,65 @@
+<style>
+#calendar {
+  border-collapse: collapse;
+  width: 80%;
+	margin-left: 110px;
+}
+ 
+#calendar td,
+#calendar th {
+  font-family: "Lucida Grande",arial,helvetica,sans-serif;
+  font-size: 12px;
+  padding: 6px;
+  height: 40px;
+}
+ 
+#calendar th {
+  border: 1px solid #ccc;
+  background: #ccc;
+  color: #666;
+  text-align: left;
+}
+ 
+#calendar td {
+  background: #ffc;
+  border: 1px solid #ddd;
+}
+ 
+#calendar span {
+  display: block;
+}
+ 
+#calendar td.events {
+  background: #fff;
+}
+ 
+#calendar td.today {
+  background: #ffc;
+  color: #666;
+}
+ 
+#calendar caption {
+  display: none;
+}
+</style>
+
+<br><br>
+
+<table id="calendar">
+	<tr>
+		<td>January</td>
+		<td>February</td>
+		<td>March</td>
+		<td>April</td>
+		<td>May</td>
+		<td>June</td>
+	</tr>
+	<tr>
+		<td>July</td>
+		<td>August</td>
+		<td>September</td>
+		<td>October</td>
+		<td>November</td>
+		<td>December</td>
+	</tr>
+</table>
