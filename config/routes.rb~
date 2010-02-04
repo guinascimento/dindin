@@ -2,7 +2,13 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :users
 
   map.resources :invoices
+  
+  map.reports '/reports', :controller => 'report', :action => 'index'
+  map.reports '/reports/pizza', :controller => 'report', :action => 'pizza'
 
+	map.invoices ':month/invoices', :controller => 'invoices', :action => 'index'
+	map.invoices ':month/invoices/new', :controller => 'invoices', :action => 'new'
+	map.invoices ':month/invoices/create', :controller => 'invoices', :action => 'create'
 
   # The priority is based upon order of creation: first created -> highest priority.
 

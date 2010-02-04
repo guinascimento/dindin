@@ -11015,3 +11015,2970 @@ ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=
   /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:20:21) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 26ms (View: 7 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:20:37) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 82ms (View: 35 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:20:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:20:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:21:30) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 29ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:21:36) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"a", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100.0", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000:month/invoices
+Completed in 37ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:21:36) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"a", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100.0", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000:month/invoices
+Completed in 36ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:21:52) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"a", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100.0", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000:month/invoices
+Completed in 31ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:22:20) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"a", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100.0", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000#{params[:month]}/invoices
+Completed in 45ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:22:22) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 43ms (View: 10 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:22:23) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"", "tags"=>{"id"=>""}, "date"=>"", "value"=>"", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 37ms (View: 9 | 200 OK [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:22:30) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"f", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000#{params[:month]}/invoices
+Completed in 31ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:22:30) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"f", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000#{params[:month]}/invoices
+Completed in 36ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:22:34) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 12ms (View: 9 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:22:35) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 115ms (View: 68 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:22:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:22:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:24:23) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 9ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:24:25) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (edit_invoice_url failed to generate from {:month=>#<Invoice _id: 4b6a3b901d41c84ff1000003, name: "Telefone", created_at: Thu Feb 04 03:14:24 UTC 2010, month: 2, updated_at: Thu Feb 04 03:14:24 UTC 2010, date: Wed Feb 03 02:00:00 UTC 2010, value: 100.0, total_debt: nil, payed: false>, :controller=>"invoices", :action=>"edit"}, expected: {:controller=>"invoices", :action=>"edit"}, diff: {:month=>#<Invoice _id: 4b6a3b901d41c84ff1000003, name: "Telefone", created_at: Thu Feb 04 03:14:24 UTC 2010, month: 2, updated_at: Thu Feb 04 03:14:24 UTC 2010, date: Wed Feb 03 02:00:00 UTC 2010, value: 100.0, total_debt: nil, payed: false>}) on line #34 of app/views/invoices/index.html.haml:
+
+    (eval):16:in `edit_invoice_path'
+    app/views/invoices/index.html.haml:34:in `_run_haml_app47views47invoices47index46html46haml'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+    app/views/invoices/index.html.haml:19:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (81.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:24:43) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 110ms (View: 72 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:24:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:24:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:24:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:25:56) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 53ms (View: 12 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:26:01) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"fdsafas", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000#{params[:month]}
+Completed in 43ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:26:01) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"fdsafas", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000#{params[:month]}
+Completed in 34ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:26:31) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"fdsafas", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+
+NoMethodError (undefined method `index_url' for #<InvoicesController:0xb675e3f4>):
+  app/controllers/invoices_controller.rb:50:in `create'
+  app/controllers/invoices_controller.rb:47:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:26:49) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"fdsafas", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/invoices
+Completed in 41ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:26:49) [GET]
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 39ms (View: 7 | 200 OK [http://localhost/invoices]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:27:03) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"fdsafas", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/invoices?month=2
+Completed in 33ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:27:03) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 191ms (View: 157 | 200 OK [http://localhost/invoices?month=2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:27:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:27:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:27:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:27:27) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"fdsafas", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/2/invoices
+Completed in 31ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:27:27) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 241ms (View: 200 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:27:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:27:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:27:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:27:41) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 25ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:27:47) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"t", "tags"=>{"id"=>""}, "date"=>"", "value"=>"t", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 43ms (View: 12 | 200 OK [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:27:52) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"t", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/#{params[:month]}/invoices
+Completed in 46ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:27:52) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"t", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/#{params[:month]}/invoices
+Completed in 35ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:27:52) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"t", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/#{params[:month]}/invoices
+Completed in 34ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:28:43) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 11ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:28:44) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 267ms (View: 240 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:28:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:28:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:28:46) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 24ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:28:55) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 43ms (View: 8 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:29:09) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 161ms (View: 148 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:29:21) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 30ms (View: 10 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:29:37) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 54ms (View: 20 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:29:42) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"eee", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/2/invoices
+Completed in 42ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:29:42) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 278ms (View: 239 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:29:46) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3f261d41c84ff1000038"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:29:49) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 244ms (View: 218 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:29:51) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3b901d41c84ff1000003"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:29:53) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 279ms (View: 221 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:29:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:29:55) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3c851d41c84ff100000a"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:29:57) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3d401d41c84ff100000e"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:01) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3d401d41c84ff1000010"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:03) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3d501d41c84ff1000012"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:05) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3d6c1d41c84ff1000014"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:07) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3d761d41c84ff1000019"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:09) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3d761d41c84ff1000019"}
+
+Mongoid::Errors::DocumentNotFound (Document not found for class Invoice and id(s) 4b6a3d761d41c84ff1000019):
+  mongoid (1.1.4) lib/mongoid/criteria.rb:254:in `id_criteria'
+  mongoid (1.1.4) lib/mongoid/criteria.rb:216:in `translate'
+  mongoid (1.1.4) lib/mongoid/finders.rb:48:in `find'
+  app/controllers/invoices_controller.rb:79:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (215.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:11) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3d761d41c84ff100001b"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:14) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3d761d41c84ff100001b"}
+
+Mongoid::Errors::DocumentNotFound (Document not found for class Invoice and id(s) 4b6a3d761d41c84ff100001b):
+  mongoid (1.1.4) lib/mongoid/criteria.rb:254:in `id_criteria'
+  mongoid (1.1.4) lib/mongoid/criteria.rb:216:in `translate'
+  mongoid (1.1.4) lib/mongoid/finders.rb:48:in `find'
+  app/controllers/invoices_controller.rb:79:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (118.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:16) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3e491d41c84ff100001e"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:30:18) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 107ms (View: 73 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:30:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:30:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:30:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:20) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3e491d41c84ff1000020"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:22) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3e671d41c84ff1000022"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:25) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3e791d41c84ff1000024"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:27) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3e871d41c84ff1000026"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:29) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3e9f1d41c84ff1000028"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:31) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3eb81d41c84ff100002d"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:33) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3eb81d41c84ff100002f"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:30:36) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3eb81d41c84ff1000031"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:30:40) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 34ms (View: 6 | 200 OK [http://localhost/2/invoices]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:30:41) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 15ms (View: 12 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:30:43) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 47ms (View: 9 | 200 OK [http://localhost/2/invoices]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:30:44) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 44ms (View: 11 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:30:50) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/2/invoices
+Completed in 35ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:30:50) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 75ms (View: 38 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:30:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:30:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:31:09) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 27ms (View: 7 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:31:11) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 38ms (View: 11 | 200 OK [http://localhost/1/invoices]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:31:12) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 20ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:31:13) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 77ms (View: 36 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:31:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:31:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:31:46) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 116ms (View: 50 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:31:46) [GET]
+
+ActionController::RoutingError (No route matches "/2/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:31:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:32:08) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 30ms (View: 20 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:32:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:32:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:34:18) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 7ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:34:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:34:44) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 39ms (View: 35 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:34:45) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 7ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:34:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:34:47) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 6ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:34:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:34:48) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 13ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:34:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:34:49) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 75ms (View: 32 | 200 OK [http://localhost/1/invoices]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:34:51) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 11ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:34:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:34:52) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 96ms (View: 65 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:34:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:34:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:35:14) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 34ms (View: 31 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:35:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:35:21) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 43ms (View: 32 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:35:22) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 80ms (View: 30 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:35:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:35:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#edit (for 127.0.0.1 at 2010-02-04 01:35:26) [GET]
+  Parameters: {"id"=>"4b6a3f6a1d41c84ff100003b"}
+Rendering template within layouts/application
+Rendering invoices/edit
+
+ActionView::TemplateError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?) on line #7 of app/views/invoices/edit.html.haml:
+4:       Keep track of your money!
+5:   #profile_container
+6:     #left
+7:       %a{:href => invoices_path}
+8:         Back
+9:       %br
+10:       %br
+
+    (eval):20:in `invoices_path'
+    app/views/invoices/edit.html.haml:7:in `_run_haml_app47views47invoices47edit46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (76.6ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-04 01:35:30) [DELETE]
+  Parameters: {"authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE=", "id"=>"4b6a3f6a1d41c84ff100003b"}
+
+ActionController::RoutingError (invoices_url failed to generate from {:controller=>"invoices", :action=>"create"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: [:month, "invoices", "create"] - are they all satisfied?):
+  (eval):20:in `invoices_url'
+  app/controllers/invoices_controller.rb:83:in `destroy'
+  app/controllers/invoices_controller.rb:82:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:35:32) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 221ms (View: 11 | 200 OK [http://localhost/2/invoices]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:35:33) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 66ms (View: 45 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:35:42) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Light", "tags"=>{"id"=>""}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"0"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/2/invoices
+Completed in 40ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:35:42) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 76ms (View: 40 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:35:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:35:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:36:17) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 17ms (View: 7 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:36:41) [GET]
+  Parameters: {"month"=>"5"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 34ms (View: 9 | 200 OK [http://localhost/5/invoices]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:36:48) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 25ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:36:49) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 65ms (View: 35 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:36:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:36:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-04 01:37:01) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 44ms (View: 10 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-04 01:37:15) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "tags"=>{"id"=>"a, b"}, "date"=>"03-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"0Gtd5lkdV/xmxcI87iKCYBFnoyvNYC18aqMls7rYcRE="}
+Redirected to http://localhost:3000/2/invoices
+Completed in 34ms | 302 Found [http://localhost/2/invoices/create]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:37:15) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 82ms (View: 41 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:37:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:37:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:37:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 01:37:53) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 18ms (View: 15 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 01:37:53) [GET]
+Sending data bart_scores.png
+Completed in 418ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 01:38:19) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 36ms (View: 28 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 01:38:20) [GET]
+Sending data bart_scores.png
+Completed in 374ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 01:38:39) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 14ms (View: 11 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 01:38:40) [GET]
+Sending data bart_scores.png
+Completed in 499ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 01:38:47) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 15ms (View: 7 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 01:38:47) [GET]
+Sending data bart_scores.png
+Completed in 329ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 01:38:53) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 25ms (View: 22 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 01:38:53) [GET]
+Sending data bart_scores.png
+Completed in 172ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 01:38:59) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 8ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 01:38:59) [GET]
+Sending data bart_scores.png
+Completed in 286ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 01:39:15) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 01:39:15) [GET]
+Sending data bart_scores.png
+Completed in 287ms (View: 4 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:39:33) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 14ms (View: 7 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:39:34) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 174ms (View: 39 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:39:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:39:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:39:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:40:30) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 9ms (View: 6 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:57:59) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 37ms (View: 6 | 200 OK [http://localhost/1/invoices]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:58:01) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 12ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 01:58:02) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 67ms (View: 40 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:58:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:58:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 01:58:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:58:16) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 25ms (View: 7 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:59:02) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 34ms (View: 31 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:59:20) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:59:28) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 18ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:59:33) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 22ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:59:43) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 9ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:59:52) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 13ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 01:59:56) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 7ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 02:00:08) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 26ms (View: 3 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 02:00:12) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 02:00:19) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 37ms (View: 34 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 02:00:25) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 20ms (View: 12 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:42:43) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 227ms (View: 114 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:42:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:42:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:42:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:44:30) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 163ms (View: 130 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:44:30) [GET]
+
+ActionController::RoutingError (No route matches "/2/public/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:44:30) [GET]
+
+ActionController::RoutingError (No route matches "/2/public/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:44:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:45:47) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 171ms (View: 132 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:45:47) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:45:47) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:45:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:46:32) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 44ms (View: 24 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:46:32) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:46:33) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 11ms (View: 8 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:46:33) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:46:43) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 23ms (View: 20 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:46:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:47:06) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 21ms (View: 17 | 200 OK [http://localhost/dashboard]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:47:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:47:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:47:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:47:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:48:04) [GET]
+
+ActionController::RoutingError (No route matches "/dindin/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:49:49) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 27ms (View: 21 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:49:52) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 138ms (View: 7 | 200 OK [http://localhost/1/invoices]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:49:55) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 9ms (View: 6 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:50:38) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 91ms (View: 45 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:50:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:50:38) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+/!\ FAILSAFE /!\  Thu Feb 04 08:50:46 -0200 2010
+  Status: 500 Internal Server Error
+  /home/guilherme/Projects/dindin/app/helpers/invoices_helper.rb:12: syntax error, unexpected '='
+			=image_tag('yes.png')
+			 ^
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:224:in `depend_on'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:126:in `helper'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:115:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:115:in `helper'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:120:in `helper'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:115:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:115:in `helper'
+    /home/guilherme/Projects/dindin/app/controllers/application_controller.rb:5
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Thu Feb 04 08:50:58 -0200 2010
+  Status: 500 Internal Server Error
+  /home/guilherme/Projects/dindin/app/helpers/invoices_helper.rb:12: syntax error, unexpected '='
+			=image_tag('yes.png')
+			 ^
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:224:in `depend_on'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:126:in `helper'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:115:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:115:in `helper'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:120:in `helper'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:115:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:115:in `helper'
+    /home/guilherme/Projects/dindin/app/controllers/application_controller.rb:5
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:51:11) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 89ms (View: 52 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:51:12) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:51:12) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/yes.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:51:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:51:13) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 23ms (View: 17 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:51:19) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 25ms (View: 22 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 08:51:58) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 12ms (View: 9 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:51:59) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 92ms (View: 53 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:52:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:52:00) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:52:12) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 209ms (View: 159 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:52:12) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:52:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:52:33) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 73ms (View: 45 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:52:33) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/no.PNG" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:52:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 08:52:43) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 182ms (View: 46 | 200 OK [http://localhost/2/invoices]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 08:52:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/cross.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)

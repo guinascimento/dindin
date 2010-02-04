@@ -1,24 +1,24 @@
 #content	#profile_container		%table#calendar
 			%tr
 				%td
-					= link_to 'January', '01/invoices'
+					= link_to 'January', '1/invoices'
 				%td
-					= link_to 'February', '02/invoices'
+					= link_to 'February', '2/invoices'
 				%td
-					= link_to 'March', '03/invoices'
+					= link_to 'March', '3/invoices'
 				%td
-					= link_to 'April', '04/invoices'
+					= link_to 'April', '4/invoices'
 				%td
-					= link_to 'May', '05/invoices'
+					= link_to 'May', '5/invoices'
 				%td
-					= link_to 'June', '06/invoices'
+					= link_to 'June', '6/invoices'
 			%tr
 				%td
-					= link_to 'July', '07/invoices'
+					= link_to 'July', '7/invoices'
 				%td
-					= link_to 'August', '08/invoices'
+					= link_to 'August', '8/invoices'
 				%td
-					= link_to 'October', '09/invoices'
+					= link_to 'October', '9/invoices'
 				%td
 					= link_to 'September', '10/invoices'
 				%td

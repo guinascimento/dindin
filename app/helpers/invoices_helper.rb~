@@ -9,9 +9,9 @@ module InvoicesHelper
 
 	def payed? invoice
 		if invoice.payed?
-			"<img src='/images/yes.PNG' width='19px' height='19px' />"
+			"<img alt='Yes' src='/images/yes.png' width='19px' height='19px' />"
 		else
-			"<img src='/images/no.PNG' width='19px' height='19px' />"
+			"<img src='/public/images/no.PNG' width='19px' height='19px' />"
 		end
 	end
 

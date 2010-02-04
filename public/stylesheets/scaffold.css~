@@ -179,7 +179,7 @@ h1{
   font-size:1.6em;
   font-weight:700;
   margin-bottom:3px;
-  margin-top:0px;
+  margin-top:-10px;
 }
 blockquote{
   font-size:1.4em;
@@ -678,8 +678,8 @@ span.residue {
   font-family: "Lucida Grande",arial,helvetica,sans-serif;
   font-size: 13px;
   padding: 30px;
+  padding-left: 40px;
   text-align: center;
-  height: 10px;
 }
  
 #calendar th {

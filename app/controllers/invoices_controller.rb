@@ -43,12 +43,11 @@ class InvoicesController < ApplicationController
   def create
     @invoice = Invoice.new(params[:invoice])
 		@invoice.month = params[:month]
-		puts @invoice.inspect
 
     respond_to do |format|
       if @invoice.save
         flash[:notice] = 'Invoice was successfully created.'
-        format.html { redirect_to(invoices_path) }
+        format.html { redirect_to "/#{params[:month]}/invoices" }
         format.xml  { render :xml => @invoice, :status => :created, :location => @invoice }
       else
         format.html { render :action => "new" }
