@@ -16,7 +16,9 @@ module InvoicesHelper
 	end
 
 	def residue salary, debt
-		"<span class='positive'>Residue: #{number_to_currency salary - debt, :unit=> 'R$ ', :separator => ',', :delimiter => '.'}</span>"
+		if debt != 0.0
+			"<span class='positive'>Residue: #{number_to_currency salary - debt, :unit=> 'R$ ', :separator => 			',', :delimiter => '.'}</span>"
+		end
 	end
 
 	def tags invoice

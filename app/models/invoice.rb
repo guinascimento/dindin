@@ -12,8 +12,14 @@ class Invoice
 	field :payed, :type => Boolean
 	field :month, :type => Integer
 
-	def self.debt
-		Invoice.sum(:value)
+	def self.debt(m)
+		invoices = Invoice.find(:conditions => { :month => m })
+		if invoices.size > 0
+				debt = Invoice.find(:conditions => { :month => m }).sum(:value)
+		else
+			debt = 0.0
+		end
+		debt
 	end
 
 	def update_worksheet
@@ -22,7 +28,7 @@ class Invoice
 			worksheet.destroy
 		end
 		worksheet = Worksheet.new
-		worksheet.update_attributes(:month => self.month, :debt => Invoice.debt)
+		worksheet.update_attributes(:month => self.month, :debt => Invoice.debt(self.month))
 	end
 
 	after_save :update_worksheet

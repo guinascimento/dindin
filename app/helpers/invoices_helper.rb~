@@ -23,7 +23,7 @@ module InvoicesHelper
 		tags = ""
 		invoice.tags.each do |tag|
 			if tag.name != nil
-					tags += "<span class='tag'>#{t}</span>"
+					tags += "<span class='tag'>#{tag.name}</span>"
 			end
 		end
 		tags
