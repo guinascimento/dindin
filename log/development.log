@@ -37305,3 +37305,420 @@ Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:18:03) [GET
 Rendering template within layouts/application
 Rendering dashboard/index
 Completed in 32ms (View: 20 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:20:42) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 214ms (View: 113 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 13:22:06) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6c31491d41c821bd0000a8"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 51ms | 302 Found [http://localhost/2/invoices/4b6c31491d41c821bd0000a8]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:22:06) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 90ms (View: 57 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:22:08) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 28ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:22:25) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 11ms (View: 8 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:22:27) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 83ms (View: 57 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:22:29) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 28ms (View: 10 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:22:53) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Cinema, Shopping, etc", "expiration_date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 159ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:22:53) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 72ms (View: 41 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:22:57) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 37ms (View: 8 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:23:06) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Carro", "expiration_date"=>"05-02-2010", "value"=>"2000", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 129ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:23:06) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 351ms (View: 93 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:23:20) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 45ms (View: 8 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:23:27) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Sky", "expiration_date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 66ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:23:27) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 192ms (View: 151 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:23:38) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 73ms (View: 15 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:23:45) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"teste", "expiration_date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 66ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:23:45) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 87ms (View: 57 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 13:23:53) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6c38011d41c821bd0000c4"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 47ms | 302 Found [http://localhost/2/invoices/4b6c38011d41c821bd0000c4]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:23:53) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 75ms (View: 48 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:23:58) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 12ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:23:59) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 113ms (View: 28 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:24:00) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 27ms (View: 10 | 200 OK [http://localhost/1/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:24:15) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"1", "invoice"=>{"name"=>"Cinema, Shopping, etc", "expiration_date"=>"05-02-2010", "value"=>"600", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/1/invoices/list
+Completed in 68ms | 302 Found [http://localhost/1/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:24:15) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 86ms (View: 53 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:24:31) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:24:34) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 177ms (View: 48 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:24:38) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 11ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:24:40) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 96ms (View: 64 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:24:42) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:24:43) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 171ms (View: 145 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:26:01) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 81ms (View: 49 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:26:03) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 10ms (View: 6 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:26:05) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 103ms (View: 69 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:26:07) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 53ms (View: 18 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:26:08) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 109ms (View: 65 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:28:57) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 14ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:28:58) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 114ms (View: 51 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:29:00) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 43ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:29:15) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Cinema, Shopping, etc", "expiration_date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 120ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:29:15) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 124ms (View: 76 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:29:26) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 67ms (View: 14 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:29:38) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "expiration_date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 348ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:29:39) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 140ms (View: 73 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:29:43) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 20ms (View: 17 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:29:44) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 109ms (View: 59 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:29:46) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 91ms (View: 20 | 200 OK [http://localhost/1/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:29:55) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"1", "invoice"=>{"name"=>"Carro", "expiration_date"=>"05-02-2010", "value"=>"2000", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+Redirected to http://localhost:3000/1/invoices/list
+Completed in 98ms | 302 Found [http://localhost/1/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:29:55) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 152ms (View: 71 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:30:04) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 35ms (View: 17 | 200 OK [http://localhost/1/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:30:13) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"1", "invoice"=>{"name"=>"Light", "expiration_date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/1/invoices/list
+Completed in 217ms | 302 Found [http://localhost/1/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:30:14) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 103ms (View: 60 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:30:23) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 12ms (View: 8 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:30:25) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 136ms (View: 54 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:30:27) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 165ms (View: 19 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:30:33) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 100ms (View: 57 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:30:35) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 87ms (View: 28 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:30:46) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Carro", "expiration_date"=>"05-02-2010", "value"=>"2000", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 85ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:30:46) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 262ms (View: 62 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:30:57) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 11ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:30:58) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 97ms (View: 64 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:31:01) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 14ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:31:16) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 309ms (View: 79 | 200 OK [http://localhost/2/invoices/list]

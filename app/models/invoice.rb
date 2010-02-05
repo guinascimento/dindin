@@ -19,11 +19,10 @@ class Invoice
 		else
 			debt = 0.0
 		end
-		debt
 	end
 
 	def update_worksheet
-		worksheet = Worksheet.last
+		worksheet = Worksheet.find(:last, :conditions => { :month => self.month })
 		if worksheet != nil
 			worksheet.destroy
 		end

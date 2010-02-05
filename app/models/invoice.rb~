@@ -16,12 +16,13 @@ class Invoice
 		invoices = Invoice.find(:conditions => { :month => m })
 		if invoices.size > 0
 				debt = Invoice.find(:conditions => { :month => m }).sum(:value)
+		else
+			debt = 0.0
 		end
-		debt
 	end
 
 	def update_worksheet
-		worksheet = Worksheet.last
+		worksheet = Worksheet.find(:last, :conditions => { :month => self.month })
 		if worksheet != nil
 			worksheet.destroy
 		end
