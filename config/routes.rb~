@@ -2,8 +2,9 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :users
   
   map.reports '/reports', :controller => 'report', :action => 'index'
-  map.reports '/reports/pizza', :controller => 'report', :action => 'pizza'
-  map.reports ':month/reports/bar', :controller => 'report', :action => 'bar'
+  map.reports ':month/reports', :controller => 'report', :action => 'index'
+  map.reports ':month/reports/pizza', :controller => 'report', :action => 'index'
+  map.reports '/reports/bar', :controller => 'report', :action => 'bar'
 
 	# Custom mapping
 	map.invoices ':month/invoices/:id/edit', :controller => 'invoices', :action => 'edit'

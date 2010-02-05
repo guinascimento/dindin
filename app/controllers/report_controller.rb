@@ -6,7 +6,8 @@ class ReportController < ApplicationController
     g = Gruff::Pie.new(500)
     g.title = "Expenses By Name"
 
-    @data = Invoice.find(:all)
+    @data = Invoice.find(:all, :conditions => {:month => params[:month].to_i})
+		puts @data.inspect
     @data.each do |d|
       g.data(d.name, d.value)
     end

@@ -38563,3 +38563,994 @@ Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:50:14) [GET]
 Rendering template within layouts/application
 Rendering invoices/index
 Completed in 1527ms (View: 498 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:54:20) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 819ms (View: 478 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:57:33) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 88ms (View: 45 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 13:57:34) [GET]
+Sending data bart_scores.png
+Completed in 3347ms (View: 2 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 13:57:38) [GET]
+Sending data bart_scores.png
+Completed in 4002ms (View: 2 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:05:01) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 45ms (View: 38 | 200 OK [http://localhost/dashboard]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:06:06) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 49ms (View: 28 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:06:07) [GET]
+Sending data bart_scores.png
+Completed in 2489ms (View: 2 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:06:10) [GET]
+Sending data bart_scores.png
+Completed in 4204ms (View: 2 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:09:01) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 32ms (View: 19 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:09:04) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 218ms (View: 133 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:11:10) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 25ms (View: 15 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:11:10) [GET]
+Sending data bart_scores.png
+Completed in 930ms (View: 2 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:11:12) [GET]
+Sending data bart_scores.png
+Completed in 1757ms (View: 2 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:12:02) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:12:04) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 170ms (View: 45 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:12:07) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 13ms (View: 10 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:12:08) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 104ms (View: 64 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:12:10) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 10ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:12:11) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 204ms (View: 171 | 200 OK [http://localhost/4/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:12:12) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:12:14) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 17ms (View: 5 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:12:15) [GET]
+Sending data bart_scores.png
+Completed in 451ms (View: 2 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:12:15) [GET]
+Sending data bart_scores.png
+Completed in 498ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:12:38) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:13:32) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 197ms (View: 58 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:14:11) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 13ms (View: 10 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:14:12) [GET]
+Sending data bart_scores.png
+Completed in 482ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:14:12) [GET]
+Sending data bart_scores.png
+Completed in 860ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:14:21) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 16ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:17:06) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+ERROR: compiling _run_haml_app47views47layouts47application46html46haml RAISED compile error
+/home/guilherme/Projects/dindin/app/views/layouts/application.html.haml:16: syntax error, unexpected ':', expecting '}'
+...rams[:month]}/reports/pizza" :class => is_active?("report")
+                              ^
+Function body:           def _run_haml_app47views47layouts47application46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :escape_html=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre", "code"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :encoding=>nil});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+_hamlout.push_text("<html>\n  <head>\n    <title>\n      Dindin\n    </title>\n    #{_hamlout.adjust_tabs(2); haml_temp = stylesheet_link_tag "scaffold"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </head>\n  <body>\n", 0, false);
+
+
+
+
+
+
+_hamlout.push_text("    <div id='header'>\n      <div id='site-title'>\n        Dindin\n      </div>\n      <div id='site-subtitle'>\n        Keep track of your money!\n      </div>\n      <div id='navigation'>\n        #{_hamlout.adjust_tabs(2); haml_temp = link_to "Dashboard", { :controller => "dashboard", :action => "index" }, :class => is_active?("invoices")
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        <span class='separator'>\n", 1, false);
+
+_hamlout.push_text("          |\n        </span>\n        #{_hamlout.adjust_tabs(-1); haml_temp = link_to "Reports", "#{params[:month]}/reports/pizza" :class => is_active?("report")
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </div>\n    </div>\n    #{_hamlout.adjust_tabs(-2); haml_temp = yield
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </body>\n</html>\n", -2, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/guilherme/Projects/dindin/app/views/layouts/application.html.haml:21:in `compile!'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/guilherme/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.17/lib/sass/plugin/rails.rb:19:in `process'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/home/guilherme/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/guilherme/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/guilherme/Projects/dindin/app/views/layouts/application.html.haml:16: syntax error, unexpected ':', expecting '}'
+...rams[:month]}/reports/pizza" :class => is_active?("report")
+                              ^) on line #16 of app/views/layouts/application.html.haml:
+13: 				=link_to "Dashboard", { :controller => "dashboard", :action => "index" }, :class => is_active?("invoices")
+14: 				%span{:class => "separator"}
+15: 					|
+16: 				=link_to "Reports", "#{params[:month]}/reports/pizza" :class => is_active?("report")
+17: 		=yield
+
+    app/views/layouts/application.html.haml:21:in `compile!'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (68.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:17:11) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 27ms (View: 24 | 200 OK [http://localhost/dashboard]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:17:19) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 11ms (View: 8 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:17:34) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 195ms (View: 49 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:17:49) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 129ms (View: 91 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:17:52) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 404ms (View: 2 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:18:06) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 415ms (View: 1 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:18:09) [GET]
+
+ActionController::RoutingError (No route matches "/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:18:13) [GET]
+  Parameters: {"month"=>"1"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 187ms (View: 107 | 200 OK [http://localhost/1/invoices/list]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:18:14) [GET]
+  Parameters: {"month"=>"1"}
+Sending data bart_scores.png
+Completed in 469ms (View: 1 | 200 OK [http://localhost/1/reports/pizza]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:18:17) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 124ms (View: 69 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:18:28) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 402ms (View: 1 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:19:06) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 101ms (View: 52 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:19:07) [GET]
+
+ActionController::RoutingError (No route matches "/2/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:19:11) [GET]
+
+ActionController::RoutingError (No route matches "/2/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:19:14) [GET]
+Sending data bart_scores.png
+Completed in 428ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:19:28) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 128ms (View: 52 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:19:30) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 427ms (View: 1 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:19:51) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 116ms (View: 81 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:19:53) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 18ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:19:53) [GET]
+Sending data bart_scores.png
+Completed in 421ms (View: 5 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:19:54) [GET]
+
+ActionController::RoutingError (No route matches "/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:20:18) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 17ms (View: 14 | 200 OK [http://localhost/reports]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:20:18) [GET]
+
+ActionController::RoutingError (No route matches "/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:20:18) [GET]
+Sending data bart_scores.png
+Completed in 389ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:20:23) [GET]
+Sending data bart_scores.png
+Completed in 466ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:20:24) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 12ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:20:25) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 229ms (View: 169 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:20:27) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 14ms (View: 7 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:20:27) [GET]
+Sending data bart_scores.png
+Completed in 408ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:20:28) [GET]
+
+ActionController::RoutingError (No route matches "/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:20:30) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 20ms (View: 13 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:22:23) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 172ms (View: 141 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:22:33) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 12ms (View: 3 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:22:33) [GET]
+Sending data bart_scores.png
+Completed in 424ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:22:33) [GET]
+
+ActionController::RoutingError (No route matches "/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:23:22) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 18ms (View: 15 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:23:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/2/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:23:22) [GET]
+Sending data bart_scores.png
+Completed in 397ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:23:53) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 18ms (View: 15 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:23:53) [GET]
+Sending data bart_scores.png
+Completed in 397ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:23:54) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 15ms (View: 3 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:24:18) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 22ms (View: 19 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:24:20) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 118ms (View: 82 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:24:23) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:24:23) [GET]
+Sending data bart_scores.png
+Completed in 468ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:24:34) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 115ms (View: 78 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:24:55) [GET]
+
+ActionController::RoutingError (No route matches "/2/reports" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:25:17) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/2/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:25:17) [GET]
+Sending data bart_scores.png
+Completed in 423ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:25:17) [GET]
+
+ActionController::RoutingError (No route matches "/2/reports/pizza" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:25:31) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 11ms (View: 7 | 200 OK [http://localhost/2/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:25:32) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 7ms (View: 3 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:25:32) [GET]
+Sending data bart_scores.png
+Completed in 381ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:25:55) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 7ms (View: 3 | 200 OK [http://localhost/2/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:25:55) [GET]
+Sending data bart_scores.png
+Completed in 418ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:25:55) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 445ms (View: 2 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:26:54) [GET]
+  Parameters: {"month"=>"2"}
+
+SyntaxError (/home/guilherme/Projects/dindin/app/controllers/report_controller.rb:9: syntax error, unexpected '{', expecting ')'
+    @data = Invoice.find(:all, :conditions {:month => params[:month]})
+                                            ^
+/home/guilherme/Projects/dindin/app/controllers/report_controller.rb:9: syntax error, unexpected '}', expecting kEND
+    @data = Invoice.find(:all, :conditions {:month => params[:month]})
+                                                                     ^):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (158.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-05 14:27:08) [GET]
+  Parameters: {"month"=>"2"}
+
+SyntaxError (/home/guilherme/Projects/dindin/app/controllers/report_controller.rb:9: syntax error, unexpected '{', expecting ')'
+    @data = Invoice.find(:conditions {:month => params[:month]})
+                                      ^
+/home/guilherme/Projects/dindin/app/controllers/report_controller.rb:9: syntax error, unexpected '}', expecting kEND
+    @data = Invoice.find(:conditions {:month => params[:month]})
+                                                               ^):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:27:39) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/2/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:27:39) [GET]
+Sending data bart_scores.png
+Completed in 425ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:27:39) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 176ms (View: 1 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:27:48) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 20ms (View: 6 | 200 OK [http://localhost/2/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:27:48) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 197ms (View: 1 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:27:48) [GET]
+Sending data bart_scores.png
+Completed in 358ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:28:20) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 6ms (View: 3 | 200 OK [http://localhost/2/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:28:20) [GET]
+Sending data bart_scores.png
+Completed in 502ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:28:20) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 187ms (View: 1 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:28:36) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 20ms (View: 3 | 200 OK [http://localhost/2/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:28:36) [GET]
+Sending data bart_scores.png
+Completed in 410ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:28:37) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 370ms (View: 1 | 200 OK [http://localhost/2/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:29:13) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:29:17) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 99ms (View: 62 | 200 OK [http://localhost/4/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:29:19) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/4/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:29:19) [GET]
+Sending data bart_scores.png
+Completed in 428ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:29:19) [GET]
+  Parameters: {"month"=>"4"}
+Sending data bart_scores.png
+Completed in 285ms (View: 1 | 200 OK [http://localhost/4/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:29:22) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 27ms (View: 11 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:29:23) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 75ms (View: 39 | 200 OK [http://localhost/4/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 14:29:25) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 43ms (View: 11 | 200 OK [http://localhost/4/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 14:29:38) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"4", "invoice"=>{"name"=>"Cinema, Shopping, etc", "expiration_date"=>"05-02-2010", "value"=>"100.0", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/4/invoices/list
+Completed in 164ms | 302 Found [http://localhost/4/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:29:38) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 155ms (View: 79 | 200 OK [http://localhost/4/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:29:40) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 6ms (View: 3 | 200 OK [http://localhost/4/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:29:40) [GET]
+Sending data bart_scores.png
+Completed in 941ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:29:41) [GET]
+  Parameters: {"month"=>"4"}
+Sending data bart_scores.png
+Completed in 655ms (View: 1 | 200 OK [http://localhost/4/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 14:30:04) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 14:30:05) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 99ms (View: 60 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 14:30:09) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering report/index
+Completed in 6ms (View: 3 | 200 OK [http://localhost/2/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 14:30:09) [GET]
+Sending data bart_scores.png
+Completed in 522ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 14:30:09) [GET]
+  Parameters: {"month"=>"2"}
+Sending data bart_scores.png
+Completed in 373ms (View: 1 | 200 OK [http://localhost/2/reports/pizza]
