@@ -4,7 +4,7 @@ class ReportController < ApplicationController
 
   def pizza
     g = Gruff::Pie.new(500)
-    g.title = "Gastos Mensais"
+    g.title = "Expenses By Name"
 
     @data = Invoice.find(:all)
     @data.each do |d|
@@ -45,7 +45,7 @@ class ReportController < ApplicationController
 
 	def bar
 		g = Gruff::Bar.new(500)
-		g.title = 'Monthly Expenses'
+		g.title = 'Expenses By Month'
 
     @data = Worksheet.find(:all)
     @data.each do |d|

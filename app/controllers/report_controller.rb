@@ -49,7 +49,7 @@ class ReportController < ApplicationController
 
     @data = Worksheet.find(:all)
     @data.each do |d|
-      g.data(month(d.month), d.total_debt)
+      g.data(month(d.month), d.debt)
     end
 
     send_data(g.to_blob, :disposition => 'inline', :type => 'image/png', :filename => "bart_scores.png")

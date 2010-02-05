@@ -20,11 +20,11 @@
                 %div{:class => "field separated"}
                   %label{:for => "invoice_date"}
                     Maturity
-                  =f.text_field :date
+                  =f.text_field :expiration_date
                 %div{:class => "field separated"}
                   %label{:for => "invoice_tags"}
                     Tags
-                    =text_field_tag 'tags[]'
+                  =text_field_tag 'tags[]'
                 %div{:class => "field separated"}
                   %label{:for => "invoice_payed"}
                     Paid ?

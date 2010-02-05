@@ -30211,3 +30211,542 @@ Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:59:55) [GET]
 Rendering template within layouts/application
 Rendering invoices/index
 Completed in 100ms (View: 42 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:05:51) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (undefined method `debt' for Invoice:Class) on line #39 of app/views/invoices/index.html.haml:
+
+    app/views/invoices/index.html.haml:39:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (178.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:06:07) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 93ms (View: 56 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:10:20) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 84ms (View: 55 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 02:10:27) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 14ms (View: 7 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 02:10:27) [GET]
+Sending data bart_scores.png
+Completed in 306ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 02:10:28) [GET]
+Sending data bart_scores.png
+Completed in 375ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 02:10:31) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 19ms (View: 12 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:10:33) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 75ms (View: 36 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:10:39) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+
+ActionView::TemplateError (undefined method `date' for #<Invoice:0xb6cfca04>) on line #23 of app/views/invoices/new.html.haml:
+20:                 %div{:class => "field separated"}
+21:                   %label{:for => "invoice_date"}
+22:                     Maturity
+23:                   =f.text_field :date
+24:                 %div{:class => "field separated"}
+25:                   %label{:for => "invoice_tags"}
+26:                     Tags
+
+    mongoid (1.1.4) lib/mongoid/attributes.rb:28:in `method_missing'
+    app/views/invoices/new.html.haml:23:in `_run_haml_app47views47invoices47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `form_for'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for'
+    app/views/invoices/new.html.haml:8:in `_run_haml_app47views47invoices47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:30:in `new'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (84.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:10:57) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 43ms (View: 28 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:11:37) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Sky", "expiration_date"=>"05-02-2010", "value"=>"150", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+
+NameError (undefined local variable or method `debt' for #<Invoice:0xb6cc0d60>):
+  mongoid (1.1.4) lib/mongoid/attributes.rb:28:in `method_missing'
+  app/models/invoice.rb:25:in `update_worksheet'
+  mongoid (1.1.4) lib/mongoid/commands/save.rb:19:in `execute'
+  mongoid (1.1.4) lib/mongoid/commands.rb:66:in `save'
+  app/controllers/invoices_controller.rb:57:in `create'
+  app/controllers/invoices_controller.rb:56:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.2ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 02:12:02) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 10ms (View: 7 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:12:02) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (undefined method `date' for #<Invoice:0xb6dbe6f4>) on line #23 of app/views/invoices/index.html.haml:
+
+    mongoid (1.1.4) lib/mongoid/attributes.rb:28:in `method_missing'
+    app/views/invoices/index.html.haml:23:in `_run_haml_app47views47invoices47index46html46haml'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+    app/views/invoices/index.html.haml:19:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (165.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:12:18) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (undefined method `strftime' for nil:NilClass) on line #23 of app/views/invoices/index.html.haml:
+
+    app/views/invoices/index.html.haml:23:in `_run_haml_app47views47invoices47index46html46haml'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+    app/views/invoices/index.html.haml:19:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (67.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:12:38) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (undefined method `strftime' for nil:NilClass) on line #23 of app/views/invoices/index.html.haml:
+
+    app/views/invoices/index.html.haml:23:in `_run_haml_app47views47invoices47index46html46haml'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+    app/views/invoices/index.html.haml:19:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (77.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:13:10) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 45ms (View: 27 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:13:19) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Carro", "expiration_date"=>"05-02-2010", "value"=>"2000", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+
+NameError (undefined local variable or method `debt' for #<Invoice:0xb6c8b354>):
+  mongoid (1.1.4) lib/mongoid/attributes.rb:28:in `method_missing'
+  app/models/invoice.rb:25:in `update_worksheet'
+  mongoid (1.1.4) lib/mongoid/commands/save.rb:19:in `execute'
+  mongoid (1.1.4) lib/mongoid/commands.rb:66:in `save'
+  app/controllers/invoices_controller.rb:57:in `create'
+  app/controllers/invoices_controller.rb:56:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (68.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:13:37) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Carro", "expiration_date"=>"05-02-2010", "value"=>"2000", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+
+NoMethodError (undefined method `debt' for #<Invoice:0xb6e0877c>):
+  mongoid (1.1.4) lib/mongoid/attributes.rb:28:in `method_missing'
+  app/models/invoice.rb:25:in `update_worksheet'
+  mongoid (1.1.4) lib/mongoid/commands/save.rb:19:in `execute'
+  mongoid (1.1.4) lib/mongoid/commands.rb:66:in `save'
+  app/controllers/invoices_controller.rb:57:in `create'
+  app/controllers/invoices_controller.rb:56:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (57.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:13:52) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Carro", "expiration_date"=>"05-02-2010", "value"=>"2000", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 57ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:13:52) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 69ms (View: 40 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 02:13:55) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b9b001d41c821bd000078"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 56ms | 302 Found [http://localhost/2/invoices/4b6b9b001d41c821bd000078]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:13:55) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 141ms (View: 37 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 02:13:56) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b9af11d41c821bd000074"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 50ms | 302 Found [http://localhost/2/invoices/4b6b9af11d41c821bd000074]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:13:56) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 73ms (View: 44 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:13:59) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 51ms (View: 16 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:14:12) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "expiration_date"=>"05-02-2010", "value"=>"200", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 62ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:14:12) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 70ms (View: 38 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:14:13) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 25ms (View: 8 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:14:16) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 158ms (View: 129 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:14:20) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 42ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:14:38) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Sky", "expiration_date"=>"05-02-2010", "value"=>"150", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 56ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:14:38) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 71ms (View: 41 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:14:44) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 157ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:14:54) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Light", "expiration_date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 68ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:14:54) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 102ms (View: 59 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:14:56) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 34ms (View: 7 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:15:12) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Celular", "expiration_date"=>"05-02-2010", "value"=>"60", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 65ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:15:12) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 79ms (View: 43 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 02:15:19) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 40ms (View: 11 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 02:15:30) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Cinema, Shopping, etc", "expiration_date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 134ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:15:30) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 72ms (View: 43 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 02:15:46) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 6ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 02:15:46) [GET]
+
+NoMethodError (undefined method `total_debt' for #<Worksheet:0xb6dafe74>):
+  mongoid (1.1.4) lib/mongoid/attributes.rb:28:in `method_missing'
+  app/controllers/report_controller.rb:52:in `bar'
+  mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+  mongoid (1.1.4) lib/mongoid/criteria.rb:111:in `each'
+  app/controllers/report_controller.rb:51:in `bar'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (59.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 02:15:47) [GET]
+Sending data bart_scores.png
+Completed in 373ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 02:15:57) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 31ms (View: 21 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:15:58) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 99ms (View: 54 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 02:16:33) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 11ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 02:16:33) [GET]
+Sending data bart_scores.png
+Completed in 278ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 02:16:33) [GET]
+Sending data bart_scores.png
+Completed in 460ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 02:16:37) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 28ms (View: 17 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 02:16:39) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 87ms (View: 54 | 200 OK [http://localhost/2/invoices/list]

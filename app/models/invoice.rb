@@ -2,17 +2,17 @@ class Invoice
 	include Mongoid::Document
 	include Mongoid::Timestamps
 
-	validates_presence_of :name, :value, :date
+	validates_presence_of :name, :value, :expiration_date
 
 	has_many :tags
 
 	field :name, :type => String
 	field :value, :type => Float
-	field :date, :type => Date
+	field :expiration_date, :type => Date
 	field :payed, :type => Boolean
 	field :month, :type => Integer
 
-	def debt
+	def self.debt
 		Invoice.sum(:value)
 	end
 
@@ -22,7 +22,7 @@ class Invoice
 			worksheet.destroy
 		end
 		worksheet = Worksheet.new
-		worksheet.update_attributes(:month => self.month, :debt => debt)
+		worksheet.update_attributes(:month => self.month, :debt => Invoice.debt)
 	end
 
 	after_save :update_worksheet
