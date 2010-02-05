@@ -37722,3 +37722,844 @@ Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:31:16) [GET]
 Rendering template within layouts/application
 Rendering invoices/index
 Completed in 309ms (View: 79 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:31:37) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 11ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 13:31:37) [GET]
+Sending data bart_scores.png
+Completed in 432ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 13:31:38) [GET]
+Sending data bart_scores.png
+Completed in 560ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:31:49) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 28ms (View: 16 | 200 OK [http://localhost/dashboard]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:31:51) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 21ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 13:31:51) [GET]
+Sending data bart_scores.png
+Completed in 357ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 13:31:52) [GET]
+Sending data bart_scores.png
+Completed in 444ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:32:25) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 9ms (View: 6 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:32:27) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 103ms (View: 70 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:32:31) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 16ms (View: 13 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:32:33) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 285ms (View: 33 | 200 OK [http://localhost/4/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 13:32:35) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 55ms (View: 19 | 200 OK [http://localhost/4/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 13:32:50) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"4", "invoice"=>{"name"=>"Carro", "expiration_date"=>"05-02-2010", "value"=>"1500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+Redirected to http://localhost:3000/4/invoices/list
+Completed in 123ms | 302 Found [http://localhost/4/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:32:50) [GET]
+  Parameters: {"month"=>"4"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 180ms (View: 91 | 200 OK [http://localhost/4/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:32:52) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 13:32:52) [GET]
+Sending data bart_scores.png
+Completed in 476ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 13:32:52) [GET]
+Sending data bart_scores.png
+Completed in 552ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:34:28) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 77ms (View: 46 | 200 OK [http://localhost/dashboard]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:34:40) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 59ms (View: 33 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 13:34:41) [GET]
+Sending data bart_scores.png
+Completed in 1402ms (View: 2 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 13:34:43) [GET]
+Sending data bart_scores.png
+Completed in 3003ms (View: 2 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:39:02) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #16 of app/views/layouts/application.html.haml:
+13: 			#navigation
+14: 				=link_to "Dashboard", { :controller => "dashboard", :action => "index" }, :class => is_active?("invoices")
+15: 				span.separator
+16: 					|
+17: 				=link_to "TODO", { :controller => "reports", :action => "index" }, :class => is_active?("todo")
+18: 				span.separator
+19: 					link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+
+    app/views/layouts/application.html.haml:16
+    haml (2.2.17) lib/haml/precompiler.rb:343:in `push_plain'
+    haml (2.2.17) lib/haml/precompiler.rb:276:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (485.8ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:39:13) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #19 of app/views/layouts/application.html.haml:
+16: 					|
+17: 				=link_to "TODO", { :controller => "reports", :action => "index" }, :class => is_active?("todo")
+18: 				span.separator
+19: 					link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+20: 
+21:     =yield
+
+    app/views/layouts/application.html.haml:19
+    haml (2.2.17) lib/haml/precompiler.rb:343:in `push_plain'
+    haml (2.2.17) lib/haml/precompiler.rb:276:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (1389.1ms)
+Rendered rescues/_request_and_response (36.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:39:30) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #19 of app/views/layouts/application.html.haml:
+16: 					|
+17: 				=link_to "TODO", { :controller => "reports", :action => "index" }, :class => is_active?("todo")
+18: 				span.separator
+19: 					link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+20: 
+21:     =yield
+
+    app/views/layouts/application.html.haml:19
+    haml (2.2.17) lib/haml/precompiler.rb:343:in `push_plain'
+    haml (2.2.17) lib/haml/precompiler.rb:276:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (446.7ms)
+Rendered rescues/_request_and_response (23.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:42:03) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #18 of app/views/layouts/application.html.haml:
+15: 					|
+16: 				=link_to "TODO", { :controller => "reports", :action => "index" }, :class => is_active?("todo")
+17: 				span.separator
+18: 					link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+19:     =yield
+
+    app/views/layouts/application.html.haml:18
+    haml (2.2.17) lib/haml/precompiler.rb:343:in `push_plain'
+    haml (2.2.17) lib/haml/precompiler.rb:276:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (485.3ms)
+Rendered rescues/_request_and_response (6.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:42:25) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #18 of app/views/layouts/application.html.haml:
+15: 					|
+16: 				=link_to "TODO", { :controller => "reports", :action => "index" }, :class => is_active?("todo")
+17: 				span.separator
+18: 					link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+19:     =yield
+
+    app/views/layouts/application.html.haml:18
+    haml (2.2.17) lib/haml/precompiler.rb:343:in `push_plain'
+    haml (2.2.17) lib/haml/precompiler.rb:276:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (245.8ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:42:52) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.) on line #19 of app/views/layouts/application.html.haml:
+16: 				=link_to "TODO", { :controller => "reports", :action => "index" }, :class => is_active?("todo")
+17: 				%span{:class => "separator"}
+18: 					link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+19:     =yield
+
+    app/views/layouts/application.html.haml:19
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:342:in `push_plain'
+    haml (2.2.17) lib/haml/precompiler.rb:276:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (423.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:43:23) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.) on line #20 of app/views/layouts/application.html.haml:
+17: 				%span{:class => "separator"}
+18: 					|
+19: 				=link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+20:     =yield
+
+    app/views/layouts/application.html.haml:20
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:375:in `push_script'
+    haml (2.2.17) lib/haml/precompiler.rb:223:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (552.2ms)
+Rendered rescues/_request_and_response (37.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:43:40) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.) on line #15 of app/views/layouts/application.html.haml:
+12: 			#navigation
+13: 				=link_to "Dashboard", { :controller => "dashboard", :action => "index" }, :class => is_active?("invoices")
+14: 
+15:     =yield
+
+    app/views/layouts/application.html.haml:15
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:375:in `push_script'
+    haml (2.2.17) lib/haml/precompiler.rb:223:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (539.2ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:43:47) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.) on line #13 of app/views/layouts/application.html.haml:
+10: 			#site-subtitle
+11: 				Keep track of your money!
+12: 			#navigation
+13:     =yield
+
+    app/views/layouts/application.html.haml:13
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:739:in `render_tag'
+    haml (2.2.17) lib/haml/precompiler.rb:805:in `render_div'
+    haml (2.2.17) lib/haml/precompiler.rb:212:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (771.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:44:31) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: "    \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #21 of app/views/layouts/application.html.haml:
+18: 					|
+19: 				=link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+20: 
+21:     	=yield
+
+    app/views/layouts/application.html.haml:21
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:375:in `push_script'
+    haml (2.2.17) lib/haml/precompiler.rb:223:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (267.8ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:45:26) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: "    \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #21 of app/views/layouts/application.html.haml:
+18: 					|
+19: 				=link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+20: 
+21:     	=yield
+
+    app/views/layouts/application.html.haml:21
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:375:in `push_script'
+    haml (2.2.17) lib/haml/precompiler.rb:223:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (843.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:45:54) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: "    \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #21 of app/views/layouts/application.html.haml:
+18: 					|
+19: 				=link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+20: 
+21:     	=yield
+
+    app/views/layouts/application.html.haml:21
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:375:in `push_script'
+    haml (2.2.17) lib/haml/precompiler.rb:223:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (646.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:46:00) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: "    \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #20 of app/views/layouts/application.html.haml:
+17: 				%span{:class => "separator"}
+18: 				=link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+19: 
+20:     	=yield
+
+    app/views/layouts/application.html.haml:20
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:375:in `push_script'
+    haml (2.2.17) lib/haml/precompiler.rb:223:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (573.8ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:46:22) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 117ms (View: 85 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:46:31) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 106ms (View: 91 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:46:37) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 180ms (View: 110 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:46:47) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 760ms (View: 718 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:46:57) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 172ms (View: 102 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:47:19) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 144ms (View: 99 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:47:28) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 121ms (View: 90 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:47:45) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: "    \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #18 of app/views/layouts/application.html.haml:
+15: 					|
+16: 				=link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+17: 
+18:     	=yield
+
+    app/views/layouts/application.html.haml:18
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:375:in `push_script'
+    haml (2.2.17) lib/haml/precompiler.rb:223:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (1191.4ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:47:54) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 125ms (View: 94 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:48:01) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 157ms (View: 109 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:48:10) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.) on line #18 of app/views/layouts/application.html.haml:
+15: 					|
+16: 				=link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+17: 
+18:     =yield
+
+    app/views/layouts/application.html.haml:18
+    haml (2.2.17) lib/haml/precompiler.rb:150:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `instance_eval'
+    haml (2.2.17) lib/haml/precompiler.rb:132:in `tabs'
+    haml (2.2.17) lib/haml/precompiler.rb:988:in `block_opened?'
+    haml (2.2.17) lib/haml/precompiler.rb:375:in `push_script'
+    haml (2.2.17) lib/haml/precompiler.rb:223:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (1431.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:48:28) [GET]
+Rendering template within layouts/application
+Rendering report/index
+
+ActionView::TemplateError (undefined local variable or method `yeld' for #<ActionView::Base:0xb6ee7300>) on line #17 of app/views/layouts/application.html.haml:
+14: 				%span{:class => "separator"}
+15: 					|
+16: 				=link_to "Reports", { :controller => "reports", :action => "index" }, :class => is_active?("report")
+17: 			=yeld
+
+    app/views/layouts/application.html.haml:17:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (440.7ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:48:35) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 165ms (View: 135 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 13:48:36) [GET]
+Sending data bart_scores.png
+Completed in 2251ms (View: 2 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 13:48:39) [GET]
+Sending data bart_scores.png
+Completed in 3353ms (View: 2 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 13:48:44) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 177ms (View: 136 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 13:48:45) [GET]
+Sending data bart_scores.png
+Completed in 2623ms (View: 2 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 13:48:48) [GET]
+Sending data bart_scores.png
+Completed in 2689ms (View: 2 | 200 OK [http://localhost/reports/bar]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 13:50:11) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 57ms (View: 33 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 13:50:14) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 1527ms (View: 498 | 200 OK [http://localhost/2/invoices/list]
