@@ -12,13 +12,17 @@ class Invoice
 	field :payed, :type => Boolean
 	field :month, :type => Integer
 
-	def total_debt
+	def debt
 		Invoice.sum(:value)
 	end
 
 	def update_worksheet
+		worksheet = Worksheet.last
+		if worksheet != nil
+			worksheet.destroy
+		end
 		worksheet = Worksheet.new
-		Worksheet.update_attributes(:month => self.month, :total_debt => total_debt)
+		worksheet.update_attributes(:month => self.month, :debt => debt)
 	end
 
 	after_save :update_worksheet

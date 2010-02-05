@@ -29332,3 +29332,882 @@ Completed in 7ms (View: 4 | 200 OK [http://localhost/dashboard]
 Processing ReportController#bar (for 127.0.0.1 at 2010-02-04 20:22:18) [GET]
 Sending data bart_scores.png
 Completed in 430ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 20:26:09) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 40ms (View: 31 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-04 20:26:09) [GET]
+Sending data bart_scores.png
+Completed in 457ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 20:26:10) [GET]
+Sending data bart_scores.png
+Completed in 415ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 20:28:01) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 6ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-04 20:28:01) [GET]
+Sending data bart_scores.png
+Completed in 558ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 20:28:01) [GET]
+Sending data bart_scores.png
+Completed in 475ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-04 20:29:36) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 64ms (View: 57 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 20:29:44) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 66ms (View: 36 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 20:29:55) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 18ms (View: 10 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-04 20:29:55) [GET]
+Sending data bart_scores.png
+Completed in 567ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 20:29:56) [GET]
+Sending data bart_scores.png
+Completed in 413ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-04 21:39:37) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 68ms (View: 34 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-04 21:39:41) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 14ms (View: 7 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-04 21:39:41) [GET]
+Sending data bart_scores.png
+Completed in 381ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-04 21:39:42) [GET]
+Sending data bart_scores.png
+Completed in 525ms (View: 4 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing InvoicesController#list (for 127.0.0.1 at 2010-02-05 01:42:42) [GET]
+
+ActionController::UnknownAction (No action responded to list. Actions: create, destroy, edit, index, new, show, and update):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:42:47) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 196ms (View: 131 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 01:42:58) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 35ms (View: 28 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 01:42:58) [GET]
+Sending data bart_scores.png
+Completed in 447ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 01:42:58) [GET]
+Sending data bart_scores.png
+Completed in 451ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 01:44:11) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 6ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 01:44:11) [GET]
+Sending data bart_scores.png
+Completed in 165ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 01:44:12) [GET]
+Sending data bart_scores.png
+Completed in 200ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 01:44:15) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 67ms (View: 50 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:44:18) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]) on line #39 of app/views/invoices/index.html.haml:
+
+    mongoid (1.1.4) lib/mongoid/contexts/mongo.rb:207:in `grouped'
+    mongoid (1.1.4) lib/mongoid/contexts/mongo.rb:193:in `sum'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:33:in `__send__'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:33:in `sum'
+    mongoid (1.1.4) lib/mongoid/finders.rb:198:in `sum'
+    app/views/invoices/index.html.haml:39:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (69.6ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:44:25) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 64ms (View: 48 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:44:43) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["show, cinema, shopping"]}
+
+NoMethodError (undefined method `update_attributes' for nil:NilClass):
+  app/models/invoice.rb:21:in `update_worksheet'
+  mongoid (1.1.4) lib/mongoid/commands/save.rb:19:in `execute'
+  mongoid (1.1.4) lib/mongoid/commands.rb:66:in `save'
+  app/controllers/invoices_controller.rb:57:in `create'
+  app/controllers/invoices_controller.rb:56:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (127.7ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:44:53) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["show, cinema, shopping"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 70ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:44:53) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 143ms (View: 116 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 01:44:58) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b94351d41c821bd000006"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 50ms | 302 Found [http://localhost/2/invoices/4b6b94351d41c821bd000006]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:44:58) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 57ms (View: 30 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 01:46:05) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:46:06) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]) on line #39 of app/views/invoices/index.html.haml:
+
+    mongoid (1.1.4) lib/mongoid/contexts/mongo.rb:207:in `grouped'
+    mongoid (1.1.4) lib/mongoid/contexts/mongo.rb:193:in `sum'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:33:in `__send__'
+    mongoid (1.1.4) lib/mongoid/criteria.rb:33:in `sum'
+    mongoid (1.1.4) lib/mongoid/finders.rb:198:in `sum'
+    app/views/invoices/index.html.haml:39:in `_run_haml_app47views47invoices47index46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/invoices_controller.rb:8:in `index'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (69.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:46:09) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 23ms (View: 8 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:46:17) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["show, cinema, shopping"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 55ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:46:17) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 67ms (View: 34 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:46:39) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 27ms (View: 8 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:46:47) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 55ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:46:47) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 162ms (View: 39 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:47:27) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 74ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:47:27) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 57ms (View: 33 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:47:41) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 21ms (View: 7 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:47:54) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["show, cinema, shopping"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 65ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:47:54) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 65ms (View: 35 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:50:28) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 23ms (View: 10 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:50:35) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"03-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+
+NoMethodError (undefined method `association_name' for {:month=>2, :total_debt=>700.0}:Hash):
+  mongoid (1.1.4) lib/mongoid/document.rb:290:in `update'
+  app/models/invoice.rb:21:in `update_worksheet'
+  mongoid (1.1.4) lib/mongoid/commands/save.rb:19:in `execute'
+  mongoid (1.1.4) lib/mongoid/commands.rb:66:in `save'
+  app/controllers/invoices_controller.rb:57:in `create'
+  app/controllers/invoices_controller.rb:56:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (84.7ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:51:59) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"03-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 49ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:51:59) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 62ms (View: 35 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:52:14) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"03-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  app/models/invoice.rb:20:in `update_worksheet'
+  mongoid (1.1.4) lib/mongoid/commands/save.rb:19:in `execute'
+  mongoid (1.1.4) lib/mongoid/commands.rb:66:in `save'
+  app/controllers/invoices_controller.rb:57:in `create'
+  app/controllers/invoices_controller.rb:56:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (55.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:52:35) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"03-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  app/models/invoice.rb:20:in `update_worksheet'
+  mongoid (1.1.4) lib/mongoid/commands/save.rb:19:in `execute'
+  mongoid (1.1.4) lib/mongoid/commands.rb:66:in `save'
+  app/controllers/invoices_controller.rb:57:in `create'
+  app/controllers/invoices_controller.rb:56:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (151.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:52:41) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"03-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 48ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:52:41) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 61ms (View: 36 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 01:52:43) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b96091d41c821bd00002e"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 47ms | 302 Found [http://localhost/2/invoices/4b6b96091d41c821bd00002e]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:52:43) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 77ms (View: 36 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 01:52:44) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b96031d41c821bd00002b"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 82ms | 302 Found [http://localhost/2/invoices/4b6b96031d41c821bd00002b]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:52:44) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 111ms (View: 64 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 01:52:45) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b95ee1d41c821bd000028"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  mongoid (1.1.4) lib/mongoid/contexts/mongo.rb:207:in `grouped'
+  mongoid (1.1.4) lib/mongoid/contexts/mongo.rb:193:in `sum'
+  mongoid (1.1.4) lib/mongoid/criteria.rb:33:in `__send__'
+  mongoid (1.1.4) lib/mongoid/criteria.rb:33:in `sum'
+  mongoid (1.1.4) lib/mongoid/finders.rb:198:in `sum'
+  app/models/invoice.rb:16:in `total_debt'
+  app/models/invoice.rb:22:in `update_worksheet'
+  mongoid (1.1.4) lib/mongoid/commands/destroy.rb:15:in `execute'
+  mongoid (1.1.4) lib/mongoid/commands.rb:45:in `destroy'
+  app/controllers/invoices_controller.rb:89:in `destroy'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (73.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:52:56) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"03-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 53ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:52:56) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 151ms (View: 115 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:53:05) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 39ms (View: 8 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:53:15) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 55ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:53:15) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 78ms (View: 40 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:54:36) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 62ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:54:36) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 59ms (View: 31 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:54:42) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 28ms (View: 7 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:54:52) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["show, cinema, shopping"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 45ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:54:52) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 68ms (View: 37 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:55:18) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Diversão", "date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["show, cinema, shopping"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 54ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:55:18) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 67ms (View: 31 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:55:27) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 29ms (View: 8 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:55:39) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Telefone", "date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 66ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:55:39) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 74ms (View: 42 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:55:49) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 28ms (View: 7 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:55:58) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Light", "date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["casa"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 79ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:55:58) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 86ms (View: 49 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:56:02) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 23ms (View: 7 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:56:22) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Carro", "date"=>"05-02-2010", "value"=>"2000", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 152ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:56:22) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 77ms (View: 46 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:56:52) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 29ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:57:05) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"a", "date"=>"05-02-2010", "value"=>"100", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["a, b, c"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 63ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:57:05) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 81ms (View: 50 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 01:57:10) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b97111d41c821bd000058"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 96ms | 302 Found [http://localhost/2/invoices/4b6b97111d41c821bd000058]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:57:11) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 84ms (View: 53 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 01:57:35) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 8ms (View: 5 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 01:57:35) [GET]
+Sending data bart_scores.png
+Completed in 325ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 01:57:36) [GET]
+Sending data bart_scores.png
+Completed in 396ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 01:57:41) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 16ms (View: 9 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:57:43) [GET]
+  Parameters: {"month"=>"3"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 48ms (View: 21 | 200 OK [http://localhost/3/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 01:57:48) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 9ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 01:57:50) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 16ms (View: 3 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 01:57:50) [GET]
+Sending data bart_scores.png
+Completed in 298ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 01:57:50) [GET]
+Sending data bart_scores.png
+Completed in 371ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 01:57:53) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 14ms (View: 7 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 01:57:53) [GET]
+Sending data bart_scores.png
+Completed in 251ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 01:57:53) [GET]
+Sending data bart_scores.png
+Completed in 377ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 01:57:54) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 8ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:58:06) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 67ms (View: 39 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 01:58:14) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b96e61d41c821bd000053"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 49ms | 302 Found [http://localhost/2/invoices/4b6b96e61d41c821bd000053]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:58:15) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 75ms (View: 43 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:58:20) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 26ms (View: 9 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:58:36) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Carro", "date"=>"05-02-2010", "value"=>"2000", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, poupança"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 58ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:58:36) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 70ms (View: 42 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#destroy (for 127.0.0.1 at 2010-02-05 01:58:42) [DELETE]
+  Parameters: {"month"=>"2", "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "id"=>"4b6b96a61d41c821bd000045"}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 167ms | 302 Found [http://localhost/2/invoices/4b6b96a61d41c821bd000045]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:58:42) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 73ms (View: 41 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing InvoicesController#new (for 127.0.0.1 at 2010-02-05 01:58:43) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/new
+Completed in 30ms (View: 17 | 200 OK [http://localhost/2/invoices/new]
+
+
+Processing InvoicesController#create (for 127.0.0.1 at 2010-02-05 01:58:59) [POST]
+  Parameters: {"commit"=>"Create", "month"=>"2", "invoice"=>{"name"=>"Cinema, Shopping, etc", "date"=>"05-02-2010", "value"=>"500", "payed"=>"1"}, "authenticity_token"=>"uUpM4o73XZh5tjSLJ/iXPuvwfupMvDhWSPiIcfHeI7Q=", "tags"=>["pessoal, diversão"]}
+Redirected to http://localhost:3000/2/invoices/list
+Completed in 56ms | 302 Found [http://localhost/2/invoices]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:58:59) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 77ms (View: 45 | 200 OK [http://localhost/2/invoices/list]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 01:59:27) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/dashboard]
+
+
+Processing ReportController#index (for 127.0.0.1 at 2010-02-05 01:59:28) [GET]
+Rendering template within layouts/application
+Rendering report/index
+Completed in 20ms (View: 7 | 200 OK [http://localhost/reports]
+
+
+Processing ReportController#bar (for 127.0.0.1 at 2010-02-05 01:59:28) [GET]
+Sending data bart_scores.png
+Completed in 296ms (View: 1 | 200 OK [http://localhost/reports/bar]
+
+
+Processing ReportController#pizza (for 127.0.0.1 at 2010-02-05 01:59:29) [GET]
+Sending data bart_scores.png
+Completed in 355ms (View: 1 | 200 OK [http://localhost/reports/pizza]
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-02-05 01:59:37) [GET]
+Rendering template within layouts/application
+Rendering dashboard/index
+Completed in 13ms (View: 10 | 200 OK [http://localhost/dashboard]
+
+
+Processing InvoicesController#index (for 127.0.0.1 at 2010-02-05 01:59:55) [GET]
+  Parameters: {"month"=>"2"}
+Rendering template within layouts/application
+Rendering invoices/index
+Completed in 100ms (View: 42 | 200 OK [http://localhost/2/invoices/list]

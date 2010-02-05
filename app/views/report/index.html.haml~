@@ -1,1 +1,2 @@
-#content	#profile_container		=image_tag '/reports/pizza'
+	#report
+		=image_tag '/reports/bar'		=image_tag '/reports/pizza'

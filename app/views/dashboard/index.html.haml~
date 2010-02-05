@@ -26,4 +26,5 @@
 				%td{:id => current_month?(12) }
 					= link_to 'December', '12/invoices/list'
 
-	=image_tag '/reports/bar'
+	#report
+		=image_tag '/reports/bar'
