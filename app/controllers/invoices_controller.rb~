@@ -1,8 +1,6 @@
 class InvoicesController < ApplicationController
-  # GET /invoices
-  # GET /invoices.xml
   def index
-    @invoices = Invoice.find(:all, :conditions => { :month => params[:month].to_i })
+    @invoices = Invoice.find(:all, :conditions => { :month => params[:month].to_i }).order_by([:expiration_date, :asc])
     @user = User.last
     
     respond_to do |format|
@@ -11,8 +9,6 @@ class InvoicesController < ApplicationController
     end
   end
 
-  # GET /invoices/1
-  # GET /invoices/1.xml
   def show
     @invoice = Invoice.find(params[:id])
 
@@ -22,8 +18,6 @@ class InvoicesController < ApplicationController
     end
   end
 
-  # GET /invoices/new
-  # GET /invoices/new.xml
   def new
     @invoice = Invoice.new
 
@@ -33,16 +27,16 @@ class InvoicesController < ApplicationController
     end
   end
 
-  # GET /invoices/1/edit
+
   def edit
-    @invoice = Invoice.find_by_id(:id => :params[:id], :conditions => { :month => params[:month].to_i })
+    @invoice = Invoice.find(params[:id], :conditions => { :month => params[:month].to_i })
   end
 
-  # POST /invoices
-  # POST /invoices.xml
   def create
     @invoice = Invoice.new(params[:invoice])
 		@invoice.month = params[:month]
+
+		puts params[:tags]
 
 		tags = params[:tags]
 		if tags != nil
@@ -65,15 +59,13 @@ class InvoicesController < ApplicationController
     end
   end
 
-  # PUT /invoices/1
-  # PUT /invoices/1.xml
   def update
     @invoice = Invoice.find(params[:id])
 
     respond_to do |format|
       if @invoice.update_attributes(params[:invoice])
         flash[:notice] = 'Invoice was successfully updated.'
-        format.html { redirect_to(invoices_path) }
+      format.html { redirect_to "/#{params[:month]}/invoices/list" }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
@@ -82,15 +74,23 @@ class InvoicesController < ApplicationController
     end
   end
 
-  # DELETE /invoices/1
-  # DELETE /invoices/1.xml
   def destroy
     @invoice = Invoice.find(params[:id])
     @invoice.destroy
-
+		puts "deletandoooooooooooooooooooooooo"
     respond_to do |format|
       format.html { redirect_to "/#{params[:month]}/invoices/list" }
       format.xml  { head :ok }
     end
   end
+
+	def paid
+    @invoice = Invoice.find(params[:id])
+		@invoice.update_attributes(:payed => :true)
+	end
+
+	def unpaid
+    @invoice = Invoice.find(params[:id])
+		@invoice.update_attributes(:payed => :false)
+	end
 end

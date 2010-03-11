@@ -5,7 +5,7 @@
       %br
       %br
       #profile_info
-        -form_for :invoice, :url => { :action => "update" } do |f|
+        -form_for :invoice, :url => { :action => "update", :id => @invoice }, :html => { :method => "put" } do |f|
           #signup_box
             %fieldset
               .group
@@ -13,21 +13,5 @@
                   %label{:for => "invoice_name"}
                     Name
                   =f.text_field :name
-                %div{:class => "field separated"}
-                  %label{:for => "invoice_value"}
-                    Value
-                  =f.text_field :value
-                %div{:class => "field separated"}
-                  %label{:for => "invoice_date"}
-                    Maturity
-                  =f.text_field :date
-                %div{:class => "field separated"}
-                  %label{:for => "invoice_tags"}
-                    Tags
-                    =text_field_tag 'tags[]'
-                %div{:class => "field separated"}
-                  %label{:for => "invoice_payed"}
-                    Paid ?
-                  =f.check_box :payed
                 %div{:class => "field separated"}
                   = f.submit 'Create'

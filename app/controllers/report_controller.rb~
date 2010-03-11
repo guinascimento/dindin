@@ -6,7 +6,7 @@ class ReportController < ApplicationController
     g = Gruff::Pie.new(500)
     g.title = "Expenses By Name"
 
-    @data = Invoice.find(:all, :conditions => {:month => params[:month]})
+    @data = Invoice.find(:all, :conditions => {:month => params[:month].to_i})
 		puts @data.inspect
     @data.each do |d|
       g.data(d.name, d.value)
@@ -48,7 +48,7 @@ class ReportController < ApplicationController
 		g = Gruff::Bar.new(500)
 		g.title = 'Expenses By Month'
 
-    @data = Worksheet.find(:all)
+    @data = Worksheet.find(:all).aggregate
     @data.each do |d|
       g.data(month(d.month), d.debt)
     end

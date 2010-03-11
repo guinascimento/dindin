@@ -7,17 +7,21 @@ module InvoicesHelper
 		end
 	end
 
-	def payed? invoice
-		if invoice.payed?
-			"<img alt='Yes' src='/images/yes.png' width='19px' height='19px' />"
+	def paid? invoice
+		if invoice.paid?
+			"#{link_to_function image_tag("yes.png", :border => 0, :width => "19px", :height => "19px", :id => "#{invoice.id}"), "unpaid('#{invoice.id}')"}"
 		else
-			"<img alt='Yes' src='/images/no.png' width='19px' height='19px' />"
+			"#{link_to_function image_tag("no.png", :border => 0, :width => "19px", :height => "19px", :id => "#{invoice.id}"), "paid('#{invoice.id}')"}"
 		end
 	end
 
 	def residue salary, debt
 		if debt != 0.0
-			"<span class='positive'>Residue: #{number_to_currency salary - debt, :unit=> 'R$ ', :separator => 			',', :delimiter => '.'}</span>"
+			if salary < debt
+				"<span class='negative'>#{number_to_currency salary - debt, :unit=> 'R$ ', :separator => 			',', :delimiter => '.'}</span>"
+			else
+				"<span class='positive'>#{number_to_currency salary - debt, :unit=> 'R$ ', :separator => 			',', :delimiter => '.'}</span>"
+			end
 		end
 	end
 

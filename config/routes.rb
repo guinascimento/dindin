@@ -11,8 +11,11 @@ ActionController::Routing::Routes.draw do |map|
 	map.invoices ':month/invoices/list', 		 :controller => 'invoices', :action => 'index'
 	map.invoices ':month/invoices/new',  		 :controller => 'invoices', :action => 'new'
 	map.invoices ':month/invoices', 		 	   :controller => 'invoices', :action => 'create'
-	map.invoices ':month/invoices/:id',      :controller => 'invoices', :action => 'destroy'
 	map.invoices ':month/invoices/:id',      :controller => 'invoices', :action => 'update'
+	map.invoices ':month/invoices/destroy/:id',      :controller => 'invoices', :action => 'destroy'
+
+	map.paid ':invoice/paid/:id', :controller => 'invoices', :action => 'paid'
+	map.paid ':invoice/unpaid/:id', :controller => 'invoices', :action => 'unpaid'
 
 
 

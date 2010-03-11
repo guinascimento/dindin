@@ -15,19 +15,21 @@ body{
   overflow:hidden;
 }
 
-#content #profile_header{
-  -moz-border-radius-topleft:6px;
-  -moz-border-radius-topright:6px;
-  -webkit-border-top-right-radius:6px;
-  -webkit-border-top-left-radius:6px;
-  height: 53px;
-  width: 800px;
-}
+
 
 #content #profile_container{
   background-color: #FFF;
   padding: 20px;
-  width: 760px;
+  width: 960px;
+margin-left: -60px;
+}
+
+#content #invoice_container{
+  background-color: #FFF;
+  padding: 20px;
+  width: 960px;
+	margin-left: -60px;
+	padding-top: 0px;
 }
 
 #content #profile_container a{
@@ -35,202 +37,19 @@ body{
   font-weight: bold;
 }
 
-#content #profile_container ul#tags{
-  color: #666;
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
 
-#content #profile_container ul#tags li{
-  display: inline;
-  margin-right: 10px;
-}
-
-#content #profile_container ul#networks{
-  margin-top: 10px;
-}
-
-#content #profile_container div.data small {
-  position:relative;
-  right:50px;
-}
-
-#content #profile_container ul.ul_terms
-{
-  font-size:1.4em;
-  line-height:20px;
-  list-style-type:disc;
-  padding-left:35px;
-}
-#content #profile_container ul#networks li{
-  float: left;
-  line-height: 30px;
-  width: 100px;
-}
-
-#content #profile_container ul#networks li img{
-  float: left;
-  margin-right: 5px;
-  margin-top: 5px;
-}
-
-#content #profile_container ul#networks li a{
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-#content #profile_container a.remove_account{
-  font-size:14px;
-}
-
-#content #profile_container div#droppable{
-  border-top: 1px solid #e1e1e1;
-  margin-top: 20px;
-}
 
 #content #profile_container div#profile_info{
   margin-left: -6px;
 }
 
-#content #highlight_bar{
-  background: url("../images/backgrounds/highlights.png") no-repeat;
-  display: block;
-  height: 60px;
-  margin: 20px 0;
-  overflow:hidden;
-  width: 800px;
-}
 
-#content #highlight_bar p{
-  font-size: 1.3em;
-  padding-left: 150px;
-  padding-top: 22px;
-}
 
-#content .feed{
-  float: left;
-  margin-bottom: 40px;
-  margin-right: 36px;
-}
 
-#content .multimedia_feed{
-  clear: both;
-  height: 120px;
-  margin-bottom: 40px;
-}
-
-#content .feed ul.network_feed{
-  font-size: 1.2em;
-  width: 215px;
-}
-
-#content .feed a.network_name{
-  color: #000000;
-}
-
-#content .multimedia_feed ul.network_feed{
-  font-size: 1.2em;
-  width: 100%;
-}
-
-#content .multimedia_feed a.network_name{
-  color: #000000;
-}
-
-#content .multimedia_feed ul.network_feed li{
-  float: left;
-  margin-right: 5px;
-}
-
-#content .feed ul.network_feed li{
-  border-bottom: 1px solid #DFDFD8;
-  padding: 5px 0;
-}
-
-#content .feed ul.network_feed li a{
-  color: #333;
-  text-decoration: none;
-}
-
-#content .feed ul.network_feed li a:hover{
-  text-decoration: underline;
-}
-
-#avatar{
-  float: left;
-  height: 250px;
-}
 
 .clear{
   clear: both;
 }
-
-#content #profile_container_2{
-  background-color:#FFFFFF;
-  padding-left:40px;
-  padding-top:40px
-}
-
-/* 3. Text & Links
-============================================================ */
-
-h1{
-  font-size:1.6em;
-  font-weight:700;
-  margin-bottom:3px;
-  margin-top:-10px;
-}
-blockquote{
-  font-size:1.4em;
-  margin-bottom:20px;
-  width:495px;
-}
-p{
-  font-size:1.4em;
-  margin-bottom:10px;
-}
-a{
-  color:#EE2D24;
-  text-decoration:underline;
-}
-a:hover{
-  color:#B7211A;
-  text-decoration:none;
-}
-
-#content #profile_header h1{
-  font-size: 1.4em;
-  padding: 13px 0 0 15px;
-}
-
-.small{
-    font-size: 0.6em;
-}
-
-#content #profile_container h2{
-  font-size: 2em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-#content #profile_container h3{
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-#content #profile_container div#droppable h3{
-  margin-top: 20px;
-}
-
-#content #profile_container_2 h3{
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-
 
 /* STYLEABLE
 ============================================================ */
@@ -239,13 +58,7 @@ html{
   background-color:#F2F2EA;
 }
 
-#content #profile_header{
-  background-color: #BADAF3;
-}
 
-#content #profile_header h1{
-  color: #333333;
-}
 
 
 
@@ -260,32 +73,40 @@ html{
     width: 100%;
     border-collapse: collapse;
     margin-top: 1em;
-    font-size: 14px;
+    font-size: 13px;
+}
+
+#operation-list-total {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    font-size: 13px;
 }
 
 #operation-list tbody tr:hover {
     background: #f5f5f5;
 }
 
-#operation-list tbody tr.adsense {
-  background: #fff;
-}
 
 #operation-list th, 
-#operation-list td {
+#operation-list td {positive
     text-align: left;
     padding: .5em;
 }
 
-#operation-list th.status {
-  text-align: center;
+
+#operation-list-total th, 
+#operation-list-total td {
+    text-align: left;
+    padding: .5em;
 }
 
-#operation-list td.status {
-  text-align: center;
-}
 
 #operation-list tbody td {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#operation-list-total tbody td {
     border-bottom: 1px solid #dfdfdf;
 }
 
@@ -295,164 +116,40 @@ html{
     border-top: .1em solid #e5eefa;
 }
 
-#operation-list tfoot td,
-#operation-list tfoot th {
-  text-align: right;
+#operation-list-total thead th {
+    font-size: 15px;
+    border-bottom: .3em solid #369;
+    border-top: .1em solid #e5eefa;
 }
+
 
 #operation-list td.title {
   /*width: 27em;*/
 }
 
-#operation-list .field {
-    width: 2em;
-}
 
 #operation-list .date {
     width: 10em;
 }
 
-#operation-list .status {
-    width: 5.5em;
-}
 
 #operation-list .amount {
     /*width: 10em;*/
   white-space: nowrap;
 }
 
-#operation-list .action {
-  white-space: nowrap;
-  width: 6em;
-}
-
-#operation-list .description {
-    color: #888;
-}
-
-#operation-list .overdue {
-    background: #FFDFDF;
-}
-
-#operation-list .overdue:hover {
-    background: #ffc9c9;
-}
-
-#operation-list .selected {
-    background: #ffc;
-}
-
-#operation-list .selected:hover {
-    background: #ff8;
-}
 
 #operation-list .amount {
     text-align: left;
 }
 
-#operation-list tr.complete .amount span {
-    text-decoration: line-through;
-}
-
-#operation-list span.sign {
-    font-family: monospace;
-    text-decoration: none;
-}
-
-#operation-list .income span.sign {
-    color: #039;
-}
-
-#operation-list .expense span.sign {
-    color: #ee3a42;
-}
-
-#operation-list tr.complete .amount .type {
-    text-decoration: none;
-}
 
 
-#operation-list tr.pending td.status span {
-    background: url(../images/cross.png) no-repeat 50% 50%;
-}
-
-#operation-list tr.done td.status span {
-    background: url(../images/tick.png) no-repeat 50% 50%;
-}
-
-#operation-list tr.new td.title .title {
-  background: url(../images/new.gif) no-repeat right 0;
-  padding-right: 2.5em;
-}
-
-#operation-list tr.overdue td.title .title {
-  background: url(../images/overdue.gif) no-repeat right 0;
-  padding-right: 3.3em;
-}
-
-#operation-list tr.schedule td.title .title {
-  background: url(../images/schedule.gif) no-repeat right 0;
-  padding-right: 3.8em;
-}
-
-#operation-list tr.hidden {
-  display: none;
-}
-
-#operation-list .no-operation {
-  padding: 4em 0;
-  text-align: center;
-}
-
-#operation-list .no-operation:hover {
-  background: #fff;
-}
 
 
-/*----------------------------------------------------------*/
-/* Tags                                                     */
-/*----------------------------------------------------------*/
-
-span.tag {
-  background:url(/images/tag.png) no-repeat left center;
-  border-right:1px solid #e5dc8a;
-  margin:0 4px 3px 0;
-  text-decoration:none;
-  color:#403d26;
-  padding:1px 3px 1px 9px;
-  line-height:16px;
-  display:-moz-inline-box;
-  height:16px;
-  float:center;
-  margin-left: 5px;
-}
-
-span.tag:hover {
-  background:url(/images/tag_hover.png) no-repeat left center;
-  border-right-color:#d1c24f;
-  color:#000;
-}
 
 
-span.positive {
-    font-size: 15px;
-    font-weight: bold;
-    background-color: #69a5e0 ;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
 
-div#signup_box {
-  padding:0 0 0 7px;
-}
-h3 span.fieldset_heading {
-  float:left;
-}
-h3 span.fieldset_heading {
-  float:left;
-}
 
 div.group, hr {
   clear: both;
@@ -461,135 +158,9 @@ div.group, hr {
 fieldset hr {
 }
 
-div.field input[type="text"],
-div.field input[type="password"] {
-  width:200px;  
-}
 
 
-div.field {
-  padding:0;
-  margin:0 0 10px 0;
-  float:left;
-}
 
-div.field.separated {
-  clear:both;
-  float:left;
-  margin-right:15px;
-}
-
-div.field.full {
-  float:none;
-}
-
-div.field.full.bottom {
-  padding-bottom:15px;
-  border-bottom:1px dashed #fff;
-}
-
-div.field input {
-  font-size:14px;
-  padding:5px;
-  background-color:#fff;
-  -webkit-transition: background-color 1s linear;
-}
-
-div.field input:focus {
-  background-color:#fff9c5;
-}
-
-div.field span.info {
-  padding:6px 5px 6px 0px;
-  font-size:16px;
-  font-weight:bold;
-}
-
-div.field span.info, div.field div.info {
-  color:#555;
-}
-
-div.field span.info a {
-  color:#333;
-}
-
-div.field span.info label {
-  font-size:16px;
-  float:none;
-  display:inline;
-}
-
-input.hint, 
-textarea.hint { color:#c3c3c3; }
-
-form label {
-  display:block;
-  color:#555;
-  font-size:14px;
-  padding:0 0 0 1px;
-  font-weight:bold;
-}
-
-form fieldset {
-  padding:10px 0 0 15px;
-  margin:0 0 20px 0;
-  background: #e5f2f5;
-}
-
-div#signup_box h1 {
-  margin-bottom:20px;
-}
-
-form label em {
-  font-size:11px;
-  color:#666;
-}
-
-a#signup_button {
-  position:relative;
-  left:-23px;
-}
-
-p.plan-info {
-  clear:both;
-  color:#555;
-  background:#fff9cf;;
-  padding:5px;
-  margin-bottom:20px;
-  line-height:1.6;
-}
-
-p.plan-info em {
-  font-size:11px;
-}
-
-p.plan-info strong { 
-  color:#333;
-}
-
-strong { font-weight:bold; }
-
-div.field span#cvv_hint, div.field span.small { font-size: 13px; }
-
-div.field div.hint { clear: both; font-weight: normal; font-style: italic;}
-
-div.fieldWithErrors
-
-{
-
-border-bottom-width: 3px;
-
-border-bottom-style: dotted;
-
-border-bottom-color: #b60040;
-
-}
-
-
-#result {
-	font-size: 15px;
-	border-collapse: collapse;
-}
 
 
 #header {
@@ -644,10 +215,6 @@ border-bottom-color: #b60040;
 #navigation a:hover, #navigation a:visited:hover {
   text-decoration: underline;
 }
-#navigation strong a, #navigation strong a:visited {
-  background-color: white;
-  color: black;
-}
 #navigation .separator {
   display: none;
 }
@@ -666,42 +233,20 @@ border-bottom-color: #b60040;
 
 
 
-#calendar td,
-#calendar th {
+#calendar td{
   font-family: "Lucida Grande",arial,helvetica,sans-serif;
   font-size: 13px;
   padding: 30px;
   text-align: center;
 }
  
-#calendar th {
-  border: 1px solid #ccc;
-  background: #ccc;
-  color: #666;
-  text-align: left;
-}
  
 #calendar td {
   background: #ffc;
   border: 1px solid #ddd;
 }
  
-#calendar span {
-  display: block;
-}
  
-#calendar td.events {
-  background: #fff;
-}
- 
-#calendar td.today {
-  background: #ffc;
-  color: #666;
-}
- 
-#calendar caption {
-  display: none;
-}
 
 
 
@@ -712,5 +257,248 @@ border-bottom-color: #b60040;
 
 #report {
 	padding-left: 150px;
-	padding-top: 5px;
+	padding-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =MAIN LAYOUT
+---------------------------------------------------- */
+h2 {
+    font-size: 21px;
+    color: #000;
+    background: url(/images/bg_h2.gif) bottom repeat-x;
+    padding: 0 6px 9px 0;
+    margin: 12px 0 9px 0;
+    }
+
+
+#flash-pad {
+    height: 18px;
+    margin: 0 -36px;
+    }
+#success-flash {
+    padding: 2px 60px;
+    background: #fff url(/images/icon_check.gif) 36px 50% no-repeat;
+    border-bottom: #ccc solid 1px;
+    font-weight: bold;
+    color: #000;
+    }
+    
+
+
+/* TEXT
+---------------------------------------------------- */
+
+p {
+    margin: 0 0 9px 0;
+    }
+small {
+    color: #777;
+    font-size: 11px;
+    font-weight: normal;
+
+    }
+	
+.clear {
+	clear: both;
+	}
+
+
+/* FORMS
+---------------------------------------------------- */
+
+div.income-details {
+    float: left;
+    width: 48%;
+    margin: 0 30px 18px 0;
+    }
+
+dl.form dd {
+    margin: 0 0 9px 0;
+    }
+
+div.group {
+    background: #f1f5fa;
+    padding: 18px 18px 3px 18px;
+    border: #ccc solid 2px;
+    margin: 0 0 18px 0;
+    }
+dl.form dt {
+    font-weight: bold;
+    margin: 0 0 3px 0;
+		font-size: 12px;
+    }
+p.submit {
+    margin: 9px 0 18px 0;
+    clear: both;
+    }
+
+input {
+    font: normal 12px/14px "Lucida Grande", arial, verdana, helvetica, sans-serif;
+    }
+input.title {
+    font-size: 12px;
+    line-height: 20px;
+    }
+
+.error {
+    color: #cc0000;
+    font-weight: bold;
+font-size: 11px;
+    }
+
+
+#cancel {
+	font-size: 13px;
+}
+
+#box_total {
+	margin-right: 40px;
+	width: 200px;
+	margin-left: 760px;
+	margin-top: -18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------*/
+/* Text & Links                                             */
+/*----------------------------------------------------------*/
+
+p {
+  font-size:1.4em;
+  margin-bottom:10px;
+}
+a {
+  color:#EE2D24;
+  text-decoration:underline;
+}
+a:hover {
+  color:#B7211A;
+  text-decoration:none;
+}
+
+/*----------------------------------------------------------*/
+/* Tables                                                   */
+/*----------------------------------------------------------*/
+
+table {
+	margin: 0 0 18px 0;
+}
+table th {
+	text-align: left;
+}
+
+/*----------------------------------------------------------*/
+/* Positive and Negative                                    */
+/*----------------------------------------------------------*/
+
+span.negative {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FF4500 ;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+span.positive {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #7CFC00 ;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+		margin-right: -5px;
+}
+
+
+/*----------------------------------------------------------*/
+/* Tags                                                     */
+/*----------------------------------------------------------*/
+
+span.tag {
+  background:url(/images/tag.png) no-repeat left center;
+  border-right:1px solid #e5dc8a;
+  margin:0 4px 3px 0;
+  text-decoration:none;
+  color:#403d26;
+  padding:1px 3px 1px 9px;
+  line-height:16px;
+  display:-moz-inline-box;
+  height:16px;
+  float:center;
+  margin-left: 5px;
+}
+
+span.tag:hover {
+  background:url(/images/tag_hover.png) no-repeat left center;
+  border-right-color:#d1c24f;
+  color:#000;
+}
+

@@ -1,17 +1,29 @@
 #content	#profile_container		#left
-			=link_to "New Invoice", "/#{params[:month]}/invoices/new"		#profile_info			%table{:id => "operation-list"}				%thead					%tr						%th{:scope => "col", :class => "date"}							Expiration Date						%th{:scope => "col", :class => "title"}							Name						%th{:scope => "col", :class => "amount"}							Value						%th{:scope => "col", :class => "status"}							Paid ?						%th{:scope => "col", :class => "action"}				%tbody					- @invoices.each do |invoice|						%tr{:id => invoice.id}							%td{:class => "date"}								%span									=invoice.expiration_date.strftime('%d/%m/%Y')							%td{:class => "title"}								= invoice.name								= tags invoice							%td{:class => "amount"}								%span									=number_to_currency invoice.value, :unit=> 'R$ ', :separator => ',', :delimiter => '.'							%td{:class => "status"}								%span									=payed? invoice							%td{:class => "action"}								= link_to 'Remove', "/#{params[:month]}/invoices/#{invoice.id}", :method => :delete			%p				%table#result
+			=link_to "New Invoice", "/#{params[:month]}/invoices/new"
+		%br		#profile_info			%table{:id => "operation-list"}				%thead					%tr						%th{:scope => "col", :class => "date"}							Due Date						%th{:scope => "col", :class => "title"}							Name						%th{:scope => "col", :class => "amount", :style => "text-align:center"}							Ammount
+						%th{:scope => "col", :class => "amount", :style => "text-align:center"}
+							Paid
+						%th{:scope => "col", :class => "amount"}				%tbody					- @invoices.each do |invoice|						%tr							%td{:class => "date"}								%span									=invoice.due_date.strftime('%d/%m/%Y')							%td{:class => "title"}								=invoice.name								=tags invoice							%td{:style => "text-align:center"}
+								=number_to_currency invoice.ammount, :unit=> 'R$ ', :separator => ',', :delimiter => '.'
+							%td{:style => "text-align:center"}
+								%span
+									=paid? invoice
+							%td{:style => "text-align:right"}
+								=link_to "Edit", "/#{params[:month]}/invoices/#{invoice.id}/edit"
+								=link_to 'Remove', "/#{params[:month]}/invoices/destroy/#{invoice.id}", :method => :delete
+		#box_total
+			%table{:id => "operation-list-total"}				%tbody					%tr
+						%td
+							Total:
+						%td{:style => "text-align:right"}
+							#{number_to_currency Invoice.debt(params[:month].to_i), :unit => "R$ ", :separator => ',', :delimiter => '.'}
 					%tr
 						%td
-							Debt: #{number_to_currency Invoice.debt(params[:month].to_i), :unit => "R$ "}
-					%tr
-						%td#line
-							#{"----------------------------"}
-					%tr
-						%td
-							Salary: #{number_to_currency @user.salary, :unit=> 'R$ ', :separator => ',', :delimiter => '.'}
+							Salary:
+						%td{:style => "text-align:right"}
+							#{number_to_currency @user.salary, :unit=> 'R$ ', :separator => ',', :delimiter => '.'}
 					%tr
 						%td
-							&nbsp;
-					%tr
-						%td
+							Residue:
+						%td{:style => "text-align:right"}
 							=residue @user.salary, Invoice.debt(params[:month].to_i)

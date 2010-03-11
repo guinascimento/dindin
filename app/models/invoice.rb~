@@ -2,20 +2,23 @@ class Invoice
 	include Mongoid::Document
 	include Mongoid::Timestamps
 
-	validates_presence_of :name, :value, :expiration_date
+	validates_presence_of :name, :ammount, :due_date
 
 	has_many :tags
 
 	field :name, :type => String
-	field :value, :type => Float
-	field :expiration_date, :type => Date
-	field :payed, :type => Boolean
+	field :ammount, :type => Float
+	field :notes, :type => String
+	field :due_date, :type => Date
+	field :paid, :type => Boolean
+
+
 	field :month, :type => Integer
 
-	def self.debt(m)
-		invoices = Invoice.find(:conditions => { :month => m })
+	def self.debt(month)
+		invoices = Invoice.find(:conditions => { :month => month })
 		if invoices.size > 0
-				debt = Invoice.find(:conditions => { :month => m }).sum(:value)
+				debt = Invoice.find(:conditions => { :month => month }).sum(:ammount)
 		else
 			debt = 0.0
 		end

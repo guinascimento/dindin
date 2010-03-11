@@ -1,0 +1,18 @@
+%html
+	%head
+		%title
+			Dindin
+		=stylesheet_link_tag "scaffold"
+		=javascript_include_tag :defaults, "lib"
+	%body
+		#header
+			#site-title
+				Dindin
+			#site-subtitle
+				Keep track of your money!
+			#navigation
+				=link_to "Dashboard", { :controller => "dashboard", :action => "index" }, :class => is_active?("invoices")
+				%span{:class => "separator"}
+					|
+				=link_to "Reports", "/#{params[:month]}/reports", :class => is_active?("report")
+		=yield
