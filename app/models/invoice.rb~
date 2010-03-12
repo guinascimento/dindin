@@ -3,7 +3,7 @@ class Invoice
 	include Mongoid::Timestamps
 
 	validates_presence_of :name, :ammount, :due_date
-
+  
 	has_many :tags
 
 	field :name, :type => String
@@ -11,7 +11,6 @@ class Invoice
 	field :notes, :type => String
 	field :due_date, :type => Date
 	field :paid, :type => Boolean
-
 
 	field :month, :type => Integer
 
@@ -35,4 +34,5 @@ class Invoice
 
 	after_save :update_worksheet
 	after_destroy :update_worksheet
+
 end

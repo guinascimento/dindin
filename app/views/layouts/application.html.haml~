@@ -1,10 +1,20 @@
 %html
-	%head
+	%head	
 		%title
 			Dindin
-		=stylesheet_link_tag "scaffold"
-		=javascript_tag "lib"
-	%body
+		=stylesheet_link_tag "scaffold", "jquery-ui"
+		%script{:type => "text/javascript", :src => "/javascripts/jquery.js"}
+		%script{:type => "text/javascript", :src => "/javascripts/jqueryui.js"}
+		%script{:type => "text/javascript", :src => "/javascripts/jquery.maskMoney.js"}
+
+		%script{:type => "text/javascript"}
+			:plain
+				$(function() {
+					$("#datepicker").datepicker({ dateFormat: 'dd-mm-yy' });
+					$("#ammount").maskMoney({decimal:",", thousands:"."});
+				});
+
+	%body{:onload => "maska()"}
 		#header
 			#site-title
 				Dindin

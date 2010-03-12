@@ -4,7 +4,7 @@
 			%div{:id => "success-flash", :style => "display: none"}
 		%h2
 			Add Invoice
-		-form_for :invoice, :url => { :action => "update" } do |f|
+		-form_for :invoice, :url => { :action => "create" } do |f|
 			.group
 				.income-details
 					%dl{:class => "form", :id => "income-enter-title"}
@@ -17,13 +17,13 @@
 							Ammount
 						%dd
 							%span{:id => "category-dd"}
-								=f.text_field :ammount, :id => "entry_title", :class => "title", :size => "30", :style => "width:99%;"
+								=f.text_field :ammount, :id => "entry_title", :class => "title", :size => "30", :style => "width:99%;", :id => "ammount"
 					%dl{:class => "form"}
 						%dt
 							Due Date
 						%dd
 							%span{:id => "category-dd"}
-								=f.text_field :due_date, :class => "title", :size => "30", :style => "width:99%;"
+								=f.text_field :due_date, :class => "title", :size => "30", :style => "width:99%;", :id => "datepicker"
 					%dl{:class => "form"}
 						%dt
 							Tags
@@ -42,9 +42,6 @@
 						%dt
 							=f.check_box :paid
 							Paid
-							%br
-							%small
-								This invoice is already paid
 				%br{:class => "clear"}
 			%p{:class => "submit"}
 				=f.submit 'Create'

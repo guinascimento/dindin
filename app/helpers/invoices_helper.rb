@@ -34,4 +34,21 @@ module InvoicesHelper
 		end
 		tags
 	end
+
+	def tags_for_field invoice
+		tags = ""
+		size = invoice.tags.length
+		control = 0
+
+		invoice.tags.each do |tag|
+			control += 1
+			if tag.name != nil
+				tags += "#{tag.name}"
+				unless size == control
+					tags += ", "
+				end
+			end
+		end
+		tags
+	end
 end

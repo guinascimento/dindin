@@ -3,8 +3,8 @@
 		#flash-pad
 			%div{:id => "success-flash", :style => "display: none"}
 		%h2
-			Add Invoice
-		-form_for :invoice, :url => { :action => "update" }, :html => { :method => :put }  do |f|
+			Edit Invoice
+		-form_for :invoice, :url => { :action => "update", :id => @invoice }, :html => { :method => "put" } do |f|
 			.group
 				.income-details
 					%dl{:class => "form", :id => "income-enter-title"}
@@ -23,13 +23,13 @@
 							Due Date
 						%dd
 							%span{:id => "category-dd"}
-								=f.text_field :due_date, :class => "title", :size => "30", :style => "width:99%;"
+								=f.text_field :due_date, :class => "title", :size => "30", :style => "width:99%;", :id => "datepicker"
 					%dl{:class => "form"}
 						%dt
 							Tags
 						%dd
 							%span{:id => "category-dd"}
-								=text_field_tag 'tags[]', nil, :size => "30", :style => "width:99%;", :class => 'title'
+								=text_field_tag 'tags[]', tags_for_field(@invoice), :size => "30", :style => "width:99%;", :class => 'title'
 								%small
 									Comma-separated
 				%div{:class => "income-details", :style => "margin-right:0;"}
@@ -42,9 +42,6 @@
 						%dt
 							=f.check_box :paid
 							Paid
-							%br
-							%small
-								This invoice is already paid
 				%br{:class => "clear"}
 			%p{:class => "submit"}
 				=f.submit 'Update'

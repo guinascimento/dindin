@@ -30,13 +30,12 @@ class InvoicesController < ApplicationController
 
   def edit
     @invoice = Invoice.find(params[:id], :conditions => { :month => params[:month].to_i })
+		@tags = @invoice.tags
   end
 
   def create
     @invoice = Invoice.new(params[:invoice])
 		@invoice.month = params[:month]
-
-		puts params[:tags]
 
 		tags = params[:tags]
 		if tags != nil
@@ -61,7 +60,16 @@ class InvoicesController < ApplicationController
 
   def update
     @invoice = Invoice.find(params[:id])
-		puts "atualizandooooooooo"
+		@invoice.tags.clear
+		
+		tags = params[:tags]
+		if tags != nil
+			tags.each do |tag|
+				tag.split(",").collect(&:strip).each do |name|
+					@invoice.tags << [ Tag.new(:name => name) ]
+				end
+			end
+		end
 
     respond_to do |format|
       if @invoice.update_attributes(params[:invoice])
@@ -78,7 +86,7 @@ class InvoicesController < ApplicationController
   def destroy
     @invoice = Invoice.find(params[:id])
     @invoice.destroy
-		puts "deletandoooooooooooooooooooooooo"
+
     respond_to do |format|
       format.html { redirect_to "/#{params[:month]}/invoices/list" }
       format.xml  { head :ok }

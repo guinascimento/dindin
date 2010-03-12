@@ -9,5 +9,4 @@ require 'gruff'
 
 Rails::Initializer.run do |config|
   config.gem "mongoid", :lib => "mongoid", :version => "1.1.4"
-#	config.frameworks -= [ :active_record ]
 end
